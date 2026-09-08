@@ -81,7 +81,7 @@
     },
     {
       "name": "writing",
-      "description": "Write compact briefs and draft directly in the user's style from relevant user-authored examples, including WhatsApp and iMessage.",
+      "description": "Draft directly in the user's style from relevant user-authored examples, including WhatsApp and iMessage.",
       "category": "Productivity",
       "source": {
         "source": "url",
@@ -89,7 +89,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/writing",
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "name": "ios",
@@ -154,7 +154,7 @@
     },
     {
       "name": "toolchain",
-      "description": "Turn grounded evidence into requirements and business-facing PRDs while enforcing target-surface delivery verification, production invariants, resource hygiene, and isolated repository work.",
+      "description": "Author grounded natural-language briefs and manage requirements agreement, dependencies, and delivery alongside safe repository work.",
       "category": "Developer Tools",
       "source": {
         "source": "url",
@@ -162,7 +162,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/toolchain",
-      "version": "0.4.8"
+      "version": "0.5.0"
     },
     {
       "name": "package-manager",

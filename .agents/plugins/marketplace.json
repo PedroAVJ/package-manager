@@ -96,7 +96,7 @@
     },
     {
       "name": "writing",
-      "description": "Write compact briefs and draft directly in the user's style from relevant user-authored examples, including WhatsApp and iMessage.",
+      "description": "Draft directly in the user's style from relevant user-authored examples, including WhatsApp and iMessage.",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/writing.git",
@@ -107,7 +107,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity",
-      "version": "0.4.1"
+      "version": "0.5.0"
     },
     {
       "name": "ios",
@@ -197,8 +197,8 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.4.8",
-      "description": "Turn grounded evidence into requirements and business-facing PRDs while enforcing target-surface delivery verification, production invariants, resource hygiene, and isolated repository work."
+      "version": "0.5.0",
+      "description": "Author grounded natural-language briefs and manage requirements agreement, dependencies, and delivery alongside safe repository work."
     },
     {
       "name": "package-manager",
