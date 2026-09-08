@@ -7,7 +7,7 @@ import test from "node:test";
 const root = fileURLToPath(new URL("..", import.meta.url));
 const expected = {
   "name": "package-manager",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "url": "https://github.com/PedroAVJ/package-manager",
   "dependencies": []
 };
@@ -22,7 +22,7 @@ test("standalone plugin metadata is synchronized", async () => {
   assert.equal(codex.version, expected.version);
   assert.equal(codex.homepage, expected.url);
   assert.equal(codex.repository, expected.url);
-  assert.equal(codex.interface.category, "System");
+  assert.equal(codex.interface.category, "Developer Tools");
   assert.equal(codex.interface.brandColor, "#000000");
   assert.equal(codex.interface.composerIcon, "./assets/agent-plugins-glyph.svg");
   assert.equal(codex.interface.logo, "./assets/agent-plugins-glyph.svg");

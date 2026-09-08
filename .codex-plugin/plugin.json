@@ -1,6 +1,6 @@
 {
   "name": "package-manager",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases.",
   "author": {
     "name": "PedroAVJ",
@@ -24,7 +24,7 @@
     "shortDescription": "Manage plugins, skills, schedules, and releases",
     "longDescription": "Discover, vet, package, schedule, publish, install, and reconcile the user's agent capabilities through versioned plugins for Codex and Claude.",
     "developerName": "PedroAVJ",
-    "category": "System",
+    "category": "Developer Tools",
     "capabilities": [
       "Interactive",
       "Read",

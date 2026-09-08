@@ -8,7 +8,13 @@ const root = fileURLToPath(new URL("..", import.meta.url));
 
 test("Package Manager owns releases through one categorized marketplace", () => {
   const release = readFileSync(join(root, "skills/release/SKILL.md"), "utf8");
-  assert.match(release, /category.*AI.*Cloud.*Communication.*Developer Tools.*Drivers.*Finance.*Health.*Media.*Productivity.*Shopping.*System/is);
+  assert.match(release, /category.*Productivity.*Developer Tools.*AI.*Communication.*Media.*Finance.*Shopping.*Utilities.*Health & Fitness.*Memory/is);
+  assert.match(release, /primary job the plugin performs/is);
+  assert.match(release, /established App Store terminology/is);
+  assert.match(release, /Vendor, platform, and implementation method do not determine membership/is);
+  assert.match(release, /one primary\s+category per plugin/is);
+  assert.match(release, /Split a category when its meaning becomes unclear, not at a fixed member count/is);
+  assert.match(release, /canonical map, both catalogs, the owning Codex manifest, and category\s+checks together/is);
   assert.match(release, /claude@package-manager.*both clients/is);
   assert.match(release, /inside Claude\s+Code.*without spawning a\s+nested Claude CLI/is);
   assert.match(release, /com\.pedro\.claude-remote-control/);
@@ -60,21 +66,20 @@ test("the canonical catalog map records exact standalone ownership", () => {
   assert.match(map, /Product-only releases preserve the plugin version/is);
   assert.match(map, /categories\s+are metadata/i);
   assert.match(map, /plugin@package-manager/);
-  for (const name of ["AI", "Cloud", "Communication", "Developer Tools", "Drivers", "Finance", "Health", "Media", "Productivity", "Shopping", "System"]) {
+  for (const name of ["AI", "Communication", "Developer Tools", "Finance", "Health & Fitness", "Media", "Memory", "Productivity", "Shopping", "Utilities"]) {
     assert.match(map, new RegExp("\\*\\*" + name + "\\*\\*"));
   }
   for (const qualified of [
-    "chatgpt.*claude.*elevenlabs.*openrouter",
-    "azure.*google-cloud.*icloud.*neon",
+    "chatgpt.*claude.*codex.*elevenlabs.*openrouter",
+    "ios.*sentry.*neon.*azure.*google-cloud.*toolchain.*package-manager",
     "contacts.*gmail.*messages.*whatsapp",
-    "codex.*sentry",
     "toolchain",
-    "calendar.*notes.*reminders.*voice-memos",
+    "calendar.*reminders.*notes.*voice-memos.*google-docs.*icloud.*writing",
     "youtube.*youtube-music",
     "amazon.*rappi",
-    "near.*rp-strength",
-    "macbook",
+    "near",
+    "rp-strength",
+    "macbook.*apple-passwords",
     "bbva.*sat",
-    "package-manager.*toolchain.*writing",
   ]) assert.match(map, new RegExp(qualified));
 });

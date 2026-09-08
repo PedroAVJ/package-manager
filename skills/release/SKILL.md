@@ -22,8 +22,8 @@ their own product repositories; keep those listings out of this public catalog:
 
 - `.agents/plugins/marketplace.json` is the Codex and ChatGPT catalog.
 - `.claude-plugin/marketplace.json` is the Claude catalog.
-- `category` groups entries as AI, Cloud, Communication, Developer Tools,
-  Drivers, Finance, Health, Media, Productivity, Shopping, or System.
+- `category` groups entries as Productivity, Developer Tools, AI, Communication,
+  Media, Finance, Shopping, Utilities, Health & Fitness, or Memory.
 - Public installation identities use `plugin@package-manager`. Private installations use the owning private marketplace name.
 
 Each catalog entry points to the program's external plugin repository rather
@@ -72,8 +72,21 @@ the applicable Azure secret/configuration service. Prefer provider commands
 that inject variables without writing a file. Never keep an environment file in
 a plugin cache, remote branch, or permanent checkout.
 
-The category is semantic, not technical. A CLI, API, connector, local database,
-or UI bridge belongs inside the program it operates.
+The category describes the primary job the plugin performs. Use a familiar job
+name and prefer established App Store terminology when it fits. Introduce a
+custom category only when the existing vocabulary does not describe that job.
+Vendor, platform, and implementation method do not determine membership. A CLI,
+API, connector, local database, or UI bridge belongs inside the program it operates.
+
+Use the exact names and membership in `MARKETPLACES.md`, with one primary
+category per plugin. A new or moved entry requires an explicit comparison with
+those category purposes; review its actual skills before assigning membership.
+Split a category when its meaning becomes unclear, not at a fixed member count.
+Update the canonical map, both catalogs, the owning Codex manifest, and category
+checks together. Run `npm test` to reject unknown categories, duplicate or missing
+memberships, and drift between the documented map and either client catalog.
+These checks enforce the approved map; the job-based naming decision still
+requires review of the plugin's purpose.
 
 ## Before editing
 
