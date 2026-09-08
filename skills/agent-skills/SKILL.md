@@ -27,20 +27,14 @@ authoring time, not install time.
 | **MCP server** | Tools the model can call. | `add-mcp` CLI | each agent's own config |
 | **Plugin** | A bundle: skills + scripts + CLIs + MCP config + assets, versioned and released together. | each agent's plugin marketplace | per-agent plugin cache |
 
-Choose the plugin's primary real-world domain before authoring:
-
-- **AI** — assistants, model routing, speech, and model services.
-- **Cloud** — cloud platforms and infrastructure.
-- **Communication** — messaging and correspondence.
-- **Developer Tools** — software construction, inspection, and operation.
-- **Productivity** — organization, capture, documents, and work management.
-- **Media** — playback, consumption, and curation.
-- **Shopping** — purchasing and consumer commerce.
-- **Health** — health information and health-related systems.
-- **Drivers** — physical machines and devices.
-- **System** — agent runtime and package infrastructure.
-
-Choose the domain a person would use to describe the program, not whether its transport is a CLI, API, connector, MCP server, or local database.
+Choose the plugin's primary job before authoring. Follow the category naming
+rule, purposes, and exact membership in [the canonical category map](../../MARKETPLACES.md).
+Use a familiar job name and prefer established App Store terminology when it
+fits. Vendor, platform, and implementation method do not determine membership.
+Assign one primary category; split by meaning rather than a fixed member count.
+Do not maintain a separate category list in this skill. A category change must
+update the canonical map, both catalogs, the owning plugin manifest, and the
+category checks through `package-manager:release`.
 
 Borrowed third-party material needs a provenance, license, and behavior review.
 Adapt or reimplement it under `plugins/<owner>/`, retain required attribution,

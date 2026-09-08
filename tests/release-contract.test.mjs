@@ -83,3 +83,12 @@ test("the canonical catalog map records exact standalone ownership", () => {
     "bbva.*sat",
   ]) assert.match(map, new RegExp(qualified));
 });
+
+
+test("skill authoring uses the canonical category map", () => {
+  const skill = readFileSync(join(root, "skills/agent-skills/SKILL.md"), "utf8");
+  const target = skill.match(/\[the canonical category map\]\(([^)]+)\)/)?.[1];
+  assert.ok(target, "authoring must reference the category authority");
+  assert.equal(readFileSync(join(root, "skills/agent-skills", target), "utf8"), readFileSync(join(root, "MARKETPLACES.md"), "utf8"));
+  assert.doesNotMatch(skill, /^- \*\*(?:Cloud|Drivers|Health|System)\*\*\s+[—–-]/m, "retired category guidance must not return");
+});
