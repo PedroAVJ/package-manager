@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create and Release Programs"
+  short_description: "Create Git-backed plugins and release changed plugin surfaces"
+  default_prompt: "Use $release to create or release this through the appropriate public or private marketplace and verify both clients."

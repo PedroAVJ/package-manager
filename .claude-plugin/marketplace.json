@@ -1,0 +1,433 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "package-manager",
+  "description": "Public plugins for Codex and Claude, with separate private configuration for each user.",
+  "owner": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "plugins": [
+    {
+      "name": "chatgpt",
+      "description": "Work with the merged macOS ChatGPT desktop host: Pro Oracle reviews, automations, read-only bundle forensics, and explicit patch or restore workflows.",
+      "category": "AI",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/chatgpt.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/chatgpt",
+      "version": "0.2.5"
+    },
+    {
+      "name": "claude",
+      "description": "Talk with Claude Fable 5.1, author in Claude Design, create visual explainers, request max-effort verified second opinions, and operate Claude Code Remote Control.",
+      "category": "AI",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/claude.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/claude",
+      "version": "0.5.21"
+    },
+    {
+      "name": "elevenlabs",
+      "description": "Use ElevenLabs through agent audio tools and the native Dictation Button app.",
+      "category": "AI",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/elevenlabs.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/elevenlabs",
+      "version": "0.7.37"
+    },
+    {
+      "name": "openrouter",
+      "description": "Use OpenRouter's multi-model API, beginning with guarded text-to-video and reference-to-video generation.",
+      "category": "AI",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/openrouter.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/openrouter",
+      "version": "0.1.4"
+    },
+    {
+      "name": "azure",
+      "description": "Work across Microsoft Azure and Azure DevOps through the Azure CLI without imposing a project workflow.",
+      "category": "Cloud",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/azure.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/azure",
+      "version": "0.1.5"
+    },
+    {
+      "name": "google-cloud",
+      "description": "Work with Google Cloud through the gcloud CLI: project inventory, Cloud Storage, and durable artifact publishing.",
+      "category": "Cloud",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/google-cloud.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/google-cloud",
+      "version": "0.2.9"
+    },
+    {
+      "name": "icloud",
+      "description": "Browse, verify, and safely archive files in the user's iCloud Drive through macOS.",
+      "category": "Cloud",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/icloud.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/icloud",
+      "version": "0.1.1"
+    },
+    {
+      "name": "neon",
+      "description": "Decide when work warrants an isolated, 72-hour Neon database branch and manage it with official Neon tooling.",
+      "category": "Cloud",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/neon.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/neon",
+      "version": "0.2.3"
+    },
+    {
+      "name": "contacts",
+      "description": "Read and manage Apple Contacts through the macOS Contacts framework.",
+      "category": "Communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/contacts.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/contacts",
+      "version": "0.1.6"
+    },
+    {
+      "name": "gmail",
+      "description": "OpenAI's connected Gmail plugin and workflows, plus raw Gmail access and bounded inbox review.",
+      "category": "Communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/gmail.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/gmail",
+      "version": "0.7.1"
+    },
+    {
+      "name": "messages",
+      "description": "Read bounded Messages hygiene metadata and outgoing writing samples without changing SMS, RCS, or iMessage state.",
+      "category": "Communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/messages.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/messages",
+      "version": "0.2.0"
+    },
+    {
+      "name": "telcel",
+      "description": "Operate Telcel usage, packages, data top-ups, and recurring-package changes with live verification.",
+      "category": "Communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/telcel.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/telcel",
+      "version": "0.1.1"
+    },
+    {
+      "name": "whatsapp",
+      "description": "Use the installed whatsapp CLI with Apple Contacts identity verification for WhatsApp chats, media, guarded drafts, and approval-gated disclosed messages.",
+      "category": "Communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/whatsapp.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/whatsapp",
+      "version": "0.11.10"
+    },
+    {
+      "name": "codex",
+      "description": "Use OpenAI Codex through its CLI and app-server, with realtime task orchestration, shared memory, review and rescue handoffs, coding contracts, and the Codex Voice Apple Watch companion.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/codex.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/codex",
+      "version": "0.8.21"
+    },
+    {
+      "name": "ios",
+      "description": "Engineer modern Apple-platform software with current SDK evidence, typed runtime contracts, digital validation, and production-aware native delivery.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/ios.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/ios",
+      "version": "0.1.2"
+    },
+    {
+      "name": "sentry",
+      "description": "Sentry's MCP and complete skill library, plus bounded CLI triage, guarded remediation, and release-lineage workflows.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/PedroAVJ/sentry.git",
+        "path": "./plugins/sentry",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/sentry",
+      "version": "1.4.1"
+    },
+    {
+      "name": "macbook",
+      "description": "Measure this Mac and authorize one-time native Mac login password fills without exposing the secret.",
+      "category": "Drivers",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/macbook.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/macbook",
+      "version": "0.6.1"
+    },
+    {
+      "name": "bbva",
+      "description": "Maintain the user's private BBVA records and native macOS spending view without placing personal data in the plugin package.",
+      "category": "Finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/bbva.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/bbva",
+      "version": "0.2.4"
+    },
+    {
+      "name": "sat",
+      "description": "Manage private SAT records, annual returns, CFDIs, and tax installment schedules through a local store.",
+      "category": "Finance",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/sat.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/sat",
+      "version": "0.1.3"
+    },
+    {
+      "name": "near",
+      "description": "Work with a user-chosen private Git-backed context repository.",
+      "category": "Health",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/PedroAVJ/near.git",
+        "path": "./plugins/near",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/near",
+      "version": "0.8.3"
+    },
+    {
+      "name": "rp-strength",
+      "description": "Own the user's gym and hypertrophy-training workflow through the configured training Google Sheet.",
+      "category": "Health",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/rp-strength.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/rp-strength",
+      "version": "0.1.2"
+    },
+    {
+      "name": "youtube",
+      "description": "Read and edit YouTube playlists through the ytx CLI over the YouTube Data API v3.",
+      "category": "Media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/youtube.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/youtube",
+      "version": "0.2.7"
+    },
+    {
+      "name": "youtube-music",
+      "description": "Play and curate YouTube Music: throwaway session queues, a validated focus pool, and macOS Background Sounds control.",
+      "category": "Media",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/youtube-music.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/youtube-music",
+      "version": "0.1.12"
+    },
+    {
+      "name": "apple-passwords",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/apple-passwords.git",
+        "ref": "main"
+      },
+      "category": "Productivity",
+      "homepage": "https://github.com/PedroAVJ/apple-passwords",
+      "version": "0.2.0",
+      "description": "Use Apple Passwords autofill in Google Chrome without exposing saved credentials to the assistant."
+    },
+    {
+      "name": "calendar",
+      "description": "Manage Apple Calendar directly through deterministic AppleScript reads and event CRUD.",
+      "category": "Productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/calendar.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/calendar",
+      "version": "0.1.3"
+    },
+    {
+      "name": "google-docs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/google-docs.git",
+        "ref": "main"
+      },
+      "category": "Productivity",
+      "homepage": "https://github.com/PedroAVJ/google-docs",
+      "version": "0.2.0",
+      "description": "Create, inspect, edit, import, and share Google Docs through the local Google Workspace CLI."
+    },
+    {
+      "name": "notes",
+      "description": "Create and manage Apple Notes, make native checklists, and read Apple call recordings with their transcript cache.",
+      "category": "Productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/notes.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/notes",
+      "version": "0.6.2"
+    },
+    {
+      "name": "reminders",
+      "description": "Manage Apple Reminders through direct APIs first and deterministic AppleScript Accessibility for UI-only features.",
+      "category": "Productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/reminders.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/reminders",
+      "version": "0.3.6"
+    },
+    {
+      "name": "samsung-tv",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/samsung-tv.git",
+        "ref": "main"
+      },
+      "category": "Productivity",
+      "homepage": "https://github.com/PedroAVJ/samsung-tv",
+      "version": "0.2.0",
+      "description": "Discover, pair, and control Samsung Tizen TVs on a local network with a portable CLI and MCP server."
+    },
+    {
+      "name": "voice-memos",
+      "description": "Read Apple Voice Memos, maintain their on-demand local transcript cache, and run independent question and health-observation workflows.",
+      "category": "Productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/voice-memos.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/voice-memos",
+      "version": "0.7.14"
+    },
+    {
+      "name": "amazon",
+      "description": "Prepare Amazon purchases as reversible cart proposals and require the user's final approval.",
+      "category": "Shopping",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/amazon.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/amazon",
+      "version": "0.1.10"
+    },
+    {
+      "name": "rappi",
+      "description": "Prepare and review one-time Rappi carts or scheduled repeat-purchase proposals without placing orders.",
+      "category": "Shopping",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/rappi.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/rappi",
+      "version": "0.2.2"
+    },
+    {
+      "name": "package-manager",
+      "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases.",
+      "category": "System",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/package-manager.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/package-manager",
+      "version": "0.2.0"
+    },
+    {
+      "name": "toolchain",
+      "description": "Turn grounded evidence into requirements and business-facing PRDs while enforcing target-surface delivery verification, production invariants, resource hygiene, and isolated repository work.",
+      "category": "System",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/toolchain.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/toolchain",
+      "version": "0.4.7"
+    },
+    {
+      "name": "writing",
+      "description": "Write compact briefs and draft directly in the user's style from relevant user-authored examples, including WhatsApp and iMessage.",
+      "category": "System",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/writing.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/writing",
+      "version": "0.4.0"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MCP Servers"
+  short_description: "Audit and package MCP server capabilities"
+  default_prompt: "Use $mcp-servers to inspect and package this MCP capability safely."

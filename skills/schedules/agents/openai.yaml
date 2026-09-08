@@ -1,0 +1,4 @@
+interface:
+  display_name: "Native Schedules"
+  short_description: "Manage thin fresh-task schedule wrappers"
+  default_prompt: "Use $schedules to create or reconcile the user's native recurring schedules."

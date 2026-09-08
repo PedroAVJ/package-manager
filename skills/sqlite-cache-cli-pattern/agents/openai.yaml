@@ -1,0 +1,4 @@
+interface:
+  display_name: "SQLite Cache CLI Pattern"
+  short_description: "Build plugin-owned CLIs with SQLite caches"
+  default_prompt: "Use $sqlite-cache-cli-pattern to design a plugin-owned CLI with a local SQLite cache."

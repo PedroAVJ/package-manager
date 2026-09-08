@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Skills"
+  short_description: "Vet and package skills without loose installs"
+  default_prompt: "Use $agent-skills to discover and package this skill through its owning plugin."

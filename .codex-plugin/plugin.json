@@ -1,0 +1,43 @@
+{
+  "name": "package-manager",
+  "version": "0.2.0",
+  "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/package-manager",
+  "repository": "https://github.com/PedroAVJ/package-manager",
+  "license": "MIT",
+  "keywords": [
+    "package-manager",
+    "plugins",
+    "skills",
+    "mcp-servers",
+    "marketplaces",
+    "schedules",
+    "release"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Package Manager",
+    "shortDescription": "Manage plugins, skills, schedules, and releases",
+    "longDescription": "Discover, vet, package, schedule, publish, install, and reconcile the user's agent capabilities through versioned plugins for Codex and Claude.",
+    "developerName": "PedroAVJ",
+    "category": "System",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Create this as a Git-backed Package Manager plugin",
+      "Reconcile my recurring native schedules",
+      "Release this plugin to Codex and Claude"
+    ],
+    "brandColor": "#000000",
+    "composerIcon": "./assets/agent-plugins-glyph.svg",
+    "logo": "./assets/agent-plugins-glyph.svg",
+    "screenshots": []
+  }
+}

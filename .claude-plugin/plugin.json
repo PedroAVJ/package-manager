@@ -1,0 +1,22 @@
+{
+  "name": "package-manager",
+  "version": "0.2.0",
+  "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/package-manager",
+  "repository": "https://github.com/PedroAVJ/package-manager",
+  "license": "MIT",
+  "keywords": [
+    "package-manager",
+    "plugins",
+    "skills",
+    "mcp-servers",
+    "marketplaces",
+    "schedules",
+    "release"
+  ],
+  "skills": "./skills/"
+}
