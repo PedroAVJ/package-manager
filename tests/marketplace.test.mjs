@@ -135,7 +135,8 @@ test("shared plugins keep source and category metadata synchronized", () => {
     assert.match(entry.source?.url, /^https:\/\/[^/]+\/.+/);
     assert.equal(entry.source?.ref, "main");
     assert.ok(["AVAILABLE", "INSTALLED_BY_DEFAULT"].includes(entry.policy?.installation));
-    assert.equal(entry.policy?.authentication, "ON_INSTALL");
+    // Near public profiles need no sign-in; private access is configured on use.
+    assert.equal(entry.policy?.authentication, entry.name === "near" ? "ON_USE" : "ON_INSTALL");
 
     const counterpart = claudeByName.get(entry.name);
     if (codexOnly.has(entry.name)) {

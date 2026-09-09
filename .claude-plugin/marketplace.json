@@ -418,7 +418,7 @@
     },
     {
       "name": "near",
-      "description": "Work with a user-chosen private Git-backed context repository.",
+      "description": "Read public profiles and work with your chosen private Git-backed context.",
       "category": "Memory",
       "source": {
         "source": "git-subdir",
@@ -427,7 +427,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/near",
-      "version": "0.8.4"
+      "version": "0.9.0"
     }
   ]
 }
