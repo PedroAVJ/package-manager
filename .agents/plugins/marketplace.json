@@ -422,8 +422,8 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Finance",
-      "version": "0.2.4",
-      "description": "Maintain the user's private BBVA records and native macOS spending view without placing personal data in the plugin package."
+      "version": "0.2.5",
+      "description": "Financial net worth and monthly net cash run rate from private BBVA records."
     },
     {
       "name": "sat",

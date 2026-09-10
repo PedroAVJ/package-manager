@@ -334,7 +334,7 @@
     },
     {
       "name": "bbva",
-      "description": "Maintain the user's private BBVA records and native macOS spending view without placing personal data in the plugin package.",
+      "description": "Financial net worth and monthly net cash run rate from private BBVA records.",
       "category": "Finance",
       "source": {
         "source": "url",
@@ -342,7 +342,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/bbva",
-      "version": "0.2.4"
+      "version": "0.2.5"
     },
     {
       "name": "sat",
