@@ -422,8 +422,8 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Finance",
-      "version": "0.2.5",
-      "description": "Financial net worth and monthly net cash run rate from private BBVA records."
+      "version": "0.2.6",
+      "description": "Independent financial net worth and net cash run rate reviews with private item-level estimates and correction history."
     },
     {
       "name": "sat",

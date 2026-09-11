@@ -334,7 +334,7 @@
     },
     {
       "name": "bbva",
-      "description": "Financial net worth and monthly net cash run rate from private BBVA records.",
+      "description": "Independent financial net worth and net cash run rate reviews with private item-level estimates and correction history.",
       "category": "Finance",
       "source": {
         "source": "url",
@@ -342,7 +342,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/bbva",
-      "version": "0.2.5"
+      "version": "0.2.6"
     },
     {
       "name": "sat",
