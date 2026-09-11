@@ -418,7 +418,7 @@
     },
     {
       "name": "near",
-      "description": "Read public profiles and work with your chosen private Git-backed context.",
+      "description": "Read private context and think through it with Fable and Astra.",
       "category": "Memory",
       "source": {
         "source": "git-subdir",
@@ -427,7 +427,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/near",
-      "version": "0.9.0"
+      "version": "0.10.0"
     }
   ]
 }
