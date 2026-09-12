@@ -210,7 +210,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/codex",
-      "version": "0.8.29"
+      "version": "0.8.30"
     },
     {
       "name": "elevenlabs",
@@ -430,12 +430,12 @@
       "version": "0.10.3"
     },
     {
-      "name": "hiring-manager",
+      "name": "recruiter",
       "description": "Choose the lowest sufficient model, then its lowest reliable reasoning effort.",
       "category": "Productivity",
-      "source": {"source": "url", "url": "https://github.com/PedroAVJ/hiring-manager.git", "ref": "main"},
-      "homepage": "https://github.com/PedroAVJ/hiring-manager",
-      "version": "0.3.0"
+      "source": {"source": "url", "url": "https://github.com/PedroAVJ/recruiter.git", "ref": "main"},
+      "homepage": "https://github.com/PedroAVJ/recruiter",
+      "version": "0.4.0"
     },
     {
       "name": "n4",

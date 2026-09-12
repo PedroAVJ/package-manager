@@ -257,7 +257,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "AI",
-      "version": "0.8.29",
+      "version": "0.8.30",
       "description": "Use OpenAI Codex through its CLI and app-server, with realtime task orchestration, shared memory, review and rescue handoffs, coding contracts, and the Codex Voice Apple Watch companion."
     },
     {
@@ -532,11 +532,11 @@
       "description": "Read private context and think through it with Fable and Astra."
     },
     {
-      "name": "hiring-manager",
-      "source": {"source": "url", "url": "https://github.com/PedroAVJ/hiring-manager.git", "ref": "main"},
+      "name": "recruiter",
+      "source": {"source": "url", "url": "https://github.com/PedroAVJ/recruiter.git", "ref": "main"},
       "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
       "category": "Productivity",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "description": "Choose the lowest sufficient model, then its lowest reliable reasoning effort."
     },
     {

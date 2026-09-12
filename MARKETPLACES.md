@@ -15,7 +15,7 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 | Category | Count | Plugins |
 | --- | ---: | --- |
 | **Developer Tools** | 11 | `ios`, `sentry`, `neon`, `azure`, `google-cloud`, `toolchain`, `package-manager`, `it-support`, `tech-support`, `support-engineer`, `n4` |
-| **Productivity** | 8 | `calendar`, `reminders`, `notes`, `voice-memos`, `google-docs`, `icloud`, `writing`, `hiring-manager` |
+| **Productivity** | 8 | `calendar`, `reminders`, `notes`, `voice-memos`, `google-docs`, `icloud`, `writing`, `recruiter` |
 | **AI** | 5 | `chatgpt`, `claude`, `codex`, `elevenlabs`, `openrouter` |
 | **Communication** | 5 | `contacts`, `gmail`, `messages`, `whatsapp`, `telcel` |
 | **Media** | 3 | `youtube`, `youtube-music`, `samsung-tv` |

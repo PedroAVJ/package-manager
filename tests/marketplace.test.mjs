@@ -18,7 +18,7 @@ const categories = {
     "google-docs",
     "icloud",
     "writing",
-    "hiring-manager"
+    "recruiter"
   ],
   "Developer Tools": [
     "ios",
