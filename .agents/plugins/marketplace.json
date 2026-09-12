@@ -242,7 +242,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "AI",
-      "version": "0.5.23",
+      "version": "0.5.24",
       "description": "Talk with Claude Fable 5.1, author in Claude Design, create visual explainers, request max-effort verified second opinions, and operate Claude Code Remote Control."
     },
     {
@@ -257,7 +257,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "AI",
-      "version": "0.8.30",
+      "version": "0.8.31",
       "description": "Use OpenAI Codex through its CLI and app-server, with realtime task orchestration, shared memory, review and rescue handoffs, coding contracts, and the Codex Voice Apple Watch companion."
     },
     {
@@ -528,7 +528,7 @@
         "authentication": "ON_USE"
       },
       "category": "Memory",
-      "version": "0.10.3",
+      "version": "0.10.4",
       "description": "Read private context and think through it with Fable and Astra."
     },
     {
