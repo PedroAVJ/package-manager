@@ -212,7 +212,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases."
     },
     {
@@ -530,46 +530,6 @@
       "category": "Memory",
       "version": "0.10.3",
       "description": "Read private context and think through it with Fable and Astra."
-    },
-    {
-      "name": "recruiter",
-      "source": {"source": "url", "url": "https://github.com/PedroAVJ/recruiter.git", "ref": "main"},
-      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
-      "category": "Productivity",
-      "version": "0.4.1",
-      "description": "Choose the lowest sufficient model, then its lowest reliable reasoning effort."
-    },
-    {
-      "name": "it-support",
-      "source": {"source": "url", "url": "https://github.com/PedroAVJ/it-support.git", "ref": "main"},
-      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
-      "category": "Developer Tools",
-      "version": "0.2.0",
-      "description": "Create, maintain, validate, install, and troubleshoot Codex plugins directly."
-    },
-    {
-      "name": "marketplace-it-support",
-      "source": {"source": "url", "url": "https://github.com/PedroAVJ/marketplace-it-support.git", "ref": "main"},
-      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
-      "category": "Developer Tools",
-      "version": "0.1.0",
-      "description": "Maintain and verify marketplace tooling used by Pedro's AI employees."
-    },
-    {
-      "name": "tech-support",
-      "source": {"source": "url", "url": "https://github.com/PedroAVJ/tech-support.git", "ref": "main"},
-      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
-      "category": "Developer Tools",
-      "version": "0.2.0",
-      "description": "Run project-isolated support intake, evidence gathering, Linear triage, and escalation."
-    },
-    {
-      "name": "support-engineer",
-      "source": {"source": "url", "url": "https://github.com/PedroAVJ/support-engineer.git", "ref": "main"},
-      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
-      "category": "Developer Tools",
-      "version": "0.1.0",
-      "description": "Investigate support reports from primary evidence and triage verified work into Linear."
     },
     {
       "name": "n4",

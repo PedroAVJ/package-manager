@@ -17,8 +17,7 @@ const categories = {
     "voice-memos",
     "google-docs",
     "icloud",
-    "writing",
-    "recruiter"
+    "writing"
   ],
   "Developer Tools": [
     "ios",
@@ -28,10 +27,6 @@ const categories = {
     "google-cloud",
     "toolchain",
     "package-manager",
-    "it-support",
-    "marketplace-it-support",
-    "tech-support",
-    "support-engineer",
     "n4"
   ],
   "AI": [
@@ -74,7 +69,7 @@ const categories = {
 };
 
 const expectedCodex = Object.values(categories).flat().sort();
-const codexOnly = new Set(["it-support", "tech-support", "support-engineer"]);
+const codexOnly = new Set();
 const expectedClaude = expectedCodex.filter((name) => !codexOnly.has(name));
 
 test("Package Manager contains every semantic category", () => {

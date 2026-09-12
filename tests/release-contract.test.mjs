@@ -52,7 +52,9 @@ test("Package Manager owns releases through one categorized marketplace", () => 
   assert.match(release, /Product-only release:[\s\S]*preserve the Codex and Claude plugin manifests/is);
   assert.match(release, /do not refresh marketplaces, reinstall either client plugin, or repoint a\s+plugin CLI shim/is);
   assert.match(release, /Mixed or ambiguous release:[\s\S]*do not guess from directory names alone/is);
-  assert.match(release, /For a product-only release[\s\S]*do not update `PedroAVJ\/package-manager` or either installed plugin/is);
+  assert.match(release, /PedroAVJ\/apps/);
+  assert.match(release, /PedroAVJ\/agents/);
+  assert.match(release, /For a product-only release[\s\S]*do not update the selected marketplace catalog or either installed plugin/is);
   assert.match(release, /ordinary request to make or create a plugin means a complete Git-backed/is);
   assert.match(release, /Do not create or register `~\/plugins\/<plugin>`[\s\S]*`plugin@personal`/is);
   assert.match(release, /install and verify the fully qualified identity/is);

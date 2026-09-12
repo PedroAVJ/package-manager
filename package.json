@@ -1,6 +1,6 @@
 {
   "name": "@pedroavj/package-manager",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "private": true,
   "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases.",
   "license": "MIT",

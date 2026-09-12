@@ -2,9 +2,9 @@
 
 Plugins are programs. Each is independently versioned in its own repository. The catalog version identifies the agent-loadable plugin contract. Product-only releases preserve the plugin version and do not refresh installed clients.
 
-Package Manager is the public marketplace at `PedroAVJ/package-manager`. Its two client catalogs use external sources. Categories are metadata inside the catalog, not separate marketplaces. Qualified public identities use `plugin@package-manager`.
+Package Manager is the public marketplace at `PedroAVJ/package-manager` for general-purpose plugins. Its two client catalogs use external sources. Categories are metadata inside the catalog, not separate marketplaces. Qualified public identities use `plugin@package-manager`.
 
-Private work marketplaces stay inside their private product repositories. A public plugin must not require one to install. Near supports separately configured private context; it ships no person's records or default private repository.
+`PedroAVJ/apps` is the separate private marketplace for named applications, platforms, and services. `PedroAVJ/agents` is the separate private marketplace for named AI employee role plugins. Codex and Claude manifests are client compatibility surfaces within each marketplace, not a functional marketplace split. A public plugin must not require a private marketplace to install. Near supports separately configured private context; it ships no person's records or default private repository.
 
 ## Category naming rule
 
@@ -14,8 +14,8 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 
 | Category | Count | Plugins |
 | --- | ---: | --- |
-| **Developer Tools** | 12 | `ios`, `sentry`, `neon`, `azure`, `google-cloud`, `toolchain`, `package-manager`, `it-support`, `marketplace-it-support`, `tech-support`, `support-engineer`, `n4` |
-| **Productivity** | 8 | `calendar`, `reminders`, `notes`, `voice-memos`, `google-docs`, `icloud`, `writing`, `recruiter` |
+| **Developer Tools** | 8 | `ios`, `sentry`, `neon`, `azure`, `google-cloud`, `toolchain`, `package-manager`, `n4` |
+| **Productivity** | 7 | `calendar`, `reminders`, `notes`, `voice-memos`, `google-docs`, `icloud`, `writing` |
 | **AI** | 5 | `chatgpt`, `claude`, `codex`, `elevenlabs`, `openrouter` |
 | **Communication** | 5 | `contacts`, `gmail`, `messages`, `whatsapp`, `telcel` |
 | **Media** | 3 | `youtube`, `youtube-music`, `samsung-tv` |
@@ -25,7 +25,7 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 | **Health & Fitness** | 1 | `rp-strength` |
 | **Memory** | 1 | `near` |
 
-41 public plugins in 10 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `azure`, `macbook`, and `apple-passwords` display as Azure, macOS, and Passwords.
+36 public plugins in 10 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `azure`, `macbook`, and `apple-passwords` display as Azure, macOS, and Passwords.
 
 ## Category purposes
 

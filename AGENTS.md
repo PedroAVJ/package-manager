@@ -1,9 +1,9 @@
 # Repository guidance
 
-- This repository is the canonical source for the public `package-manager` plugin and marketplace.
+- This repository is the canonical source for the public `package-manager` plugin and its general-purpose catalog.
 - Keep `.agents/plugins/marketplace.json` and `.claude-plugin/marketplace.json` synchronized under `package-manager`.
 - Catalog entries point at independently versioned public plugin repositories. Do not duplicate runtime implementations into the catalog.
-- Private work plugins belong in separate private marketplaces within their own product repositories. Their source and listings stay out of this public catalog.
+- Named applications, platforms, and services belong in the private `apps` marketplace. Named AI employee role plugins belong in the private `agents` marketplace. Their listings stay out of this public catalog.
 - Use the established owner and marketplace for a new plugin. An existing public plugin stays public. Unclear or unauthorized visibility stays private until settled. A temporary local namespace requires an explicit request.
 - Use `git-subdir` for a self-contained plugin inside a larger product repository. Do not ship private state with any public payload.
 - Categories describe the primary job the plugin performs. Follow the naming rule and category purposes in `MARKETPLACES.md`; vendor, platform, and implementation method do not determine membership. Keep the exact map, both catalogs, owning manifests, and category checks synchronized.

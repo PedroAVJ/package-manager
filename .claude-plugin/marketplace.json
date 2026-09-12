@@ -174,7 +174,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/package-manager",
-      "version": "0.2.2"
+      "version": "0.2.3"
     },
     {
       "name": "chatgpt",
@@ -428,22 +428,6 @@
       },
       "homepage": "https://github.com/PedroAVJ/near",
       "version": "0.10.3"
-    },
-    {
-      "name": "recruiter",
-      "description": "Choose the lowest sufficient model, then its lowest reliable reasoning effort.",
-      "category": "Productivity",
-      "source": {"source": "url", "url": "https://github.com/PedroAVJ/recruiter.git", "ref": "main"},
-      "homepage": "https://github.com/PedroAVJ/recruiter",
-      "version": "0.4.1"
-    },
-    {
-      "name": "marketplace-it-support",
-      "description": "Maintain and verify marketplace tooling used by Pedro's AI employees.",
-      "category": "Developer Tools",
-      "source": {"source": "url", "url": "https://github.com/PedroAVJ/marketplace-it-support.git", "ref": "main"},
-      "homepage": "https://github.com/PedroAVJ/marketplace-it-support",
-      "version": "0.1.0"
     },
     {
       "name": "n4",

@@ -15,21 +15,23 @@ plugin release. Never edit installed caches as source.
 The repository-root [`MARKETPLACES.md`](../../MARKETPLACES.md) is the
 canonical category map.
 
-Every program lives in its own Git repository. The public marketplace,
-`PedroAVJ/package-manager`, catalogs publicly installable plugins for both
-clients. Proprietary work plugins live in separate private marketplaces inside
-their own product repositories; keep those listings out of this public catalog:
+Every program lives in its own Git repository. `PedroAVJ/package-manager`
+catalogs general-purpose publicly installable plugins for both clients.
+`PedroAVJ/apps` is the private marketplace for named applications, platforms,
+and services. `PedroAVJ/agents` is the private marketplace for named AI
+employee role plugins. Keep Apps and Agents listings out of the public catalog:
 
 - `.agents/plugins/marketplace.json` is the Codex and ChatGPT catalog.
 - `.claude-plugin/marketplace.json` is the Claude catalog.
 - `category` groups entries as Productivity, Developer Tools, AI, Communication,
   Media, Finance, Shopping, Utilities, Health & Fitness, or Memory.
-- Public installation identities use `plugin@package-manager`. Private installations use the owning private marketplace name.
+- Public installation identities use `plugin@package-manager`. Private Apps and
+  Agents installations use `plugin@apps` and `plugin@agents` respectively.
 
 Each catalog entry points to the program's external plugin repository rather
 than copying its implementation into the marketplace.
 
-## Create new plugins through Package Manager
+## Classify and create new plugins
 
 An ordinary request to make or create a plugin means a complete Git-backed
 plugin. Resolve the owner and visibility from the task and existing repository.
@@ -43,10 +45,11 @@ it is settled. Unless the user asks for a temporary local-only plugin:
 2. Do not create or register `~/plugins/<plugin>`,
    `~/.agents/plugins/marketplace.json`, a `personal` marketplace, or any other
    ad hoc marketplace namespace. Never publish the plugin as `plugin@personal`.
-3. Add a public release to both Package Manager catalogs under its
-   semantic category. A private plugin belongs in its product repository's
-   private marketplace. Use both client manifests unless a Codex-only constraint
-   is explicitly proven.
+3. Classify the plugin before adding it to a catalog. A named application,
+   platform, or service belongs in Apps; a named AI employee role belongs in
+   Agents; a general-purpose public capability belongs in Package Manager under
+   its semantic category. Use both client manifests unless a Codex-only
+   constraint is explicitly proven.
 4. Publish source first, verify the remote default-branch commit, publish the
    catalog, then install and verify the fully qualified identity in the requested clients.
 
@@ -202,11 +205,11 @@ Stage only intended files, commit, and push the source repository first. Verify
 the remote default branch resolves to the exact local commit.
 
 For a product-only release, run its owning deployment and verification path,
-then stop: do not update `PedroAVJ/package-manager` or either installed plugin.
+then stop: do not update the selected marketplace catalog or either installed plugin.
 
-For a plugin release, update the entry version in
-`PedroAVJ/package-manager`, validate both catalogs, and push the catalog before
-changing either client.
+For a plugin release, update the entry version in its selected marketplace,
+validate both client catalogs, and push the catalog before changing either
+client.
 
 If work is legitimate but not ready for the default branch, publish it to a
 clearly named remote `wip/` or `archive/` branch and verify the exact remote SHA.
@@ -216,9 +219,10 @@ Never discard an unpublished clone merely to finish a release. Do not push priva
 
 This section applies only when the release impact gate found a plugin release.
 
-Add the unified marketplace before installing moved plugins. Install
+Add the selected marketplace before installing moved plugins. Install
 dependencies before dependents, then verify the replacement identity before
-removing the old one:
+removing the old one. For Apps or Agents, substitute that repository and
+marketplace name in the same commands:
 
 ```bash
 codex plugin marketplace add PedroAVJ/package-manager --ref main

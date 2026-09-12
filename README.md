@@ -2,7 +2,7 @@
 
 A public catalog of independently versioned plugins for Codex and Claude Code. The repository also contains the Package Manager plugin for discovering, packaging, scheduling, and releasing agent capabilities.
 
-Every listed plugin has public source. Account access and private user data remain in the owning service or local configuration. Proprietary work plugins use their own private marketplaces and are not listed here.
+Every listed plugin has public source. Account access and private user data remain in the owning service or local configuration. Named applications, platforms, and services use the private `PedroAVJ/apps` marketplace; named AI employee role plugins use the private `PedroAVJ/agents` marketplace. Neither belongs here.
 
 ## Install
 
