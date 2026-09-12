@@ -536,8 +536,8 @@
       "source": {"source": "url", "url": "https://github.com/PedroAVJ/hiring-manager.git", "ref": "main"},
       "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
       "category": "Productivity",
-      "version": "0.2.0",
-      "description": "Make direct AI staffing decisions, design roles, and review employee performance."
+      "version": "0.3.0",
+      "description": "Choose the lowest sufficient model, then its lowest reliable reasoning effort."
     },
     {
       "name": "it-support",

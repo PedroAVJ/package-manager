@@ -431,11 +431,11 @@
     },
     {
       "name": "hiring-manager",
-      "description": "Make direct AI staffing decisions, design roles, and review employee performance.",
+      "description": "Choose the lowest sufficient model, then its lowest reliable reasoning effort.",
       "category": "Productivity",
       "source": {"source": "url", "url": "https://github.com/PedroAVJ/hiring-manager.git", "ref": "main"},
       "homepage": "https://github.com/PedroAVJ/hiring-manager",
-      "version": "0.2.0"
+      "version": "0.3.0"
     },
     {
       "name": "n4",
