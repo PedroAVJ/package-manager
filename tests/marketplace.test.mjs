@@ -17,7 +17,10 @@ const categories = {
     "voice-memos",
     "google-docs",
     "icloud",
-    "writing"
+    "writing",
+    "allways",
+    "google-sheets",
+    "hiring-manager"
   ],
   "Developer Tools": [
     "ios",
@@ -26,7 +29,11 @@ const categories = {
     "azure",
     "google-cloud",
     "toolchain",
-    "package-manager"
+    "package-manager",
+    "it-support",
+    "tech-support",
+    "support-engineer",
+    "n4"
   ],
   "AI": [
     "chatgpt",
@@ -68,7 +75,7 @@ const categories = {
 };
 
 const expectedCodex = Object.values(categories).flat().sort();
-const codexOnly = new Set();
+const codexOnly = new Set(["it-support", "tech-support", "support-engineer"]);
 const expectedClaude = expectedCodex.filter((name) => !codexOnly.has(name));
 
 test("Package Manager contains every semantic category", () => {
@@ -111,8 +118,8 @@ test("the documented map matches both catalogs without missing members or count 
       documented.set(name, category);
     }
   }
-  for (const marketplace of [codex, claude]) {
-    assert.equal(marketplace.plugins.length, documented.size);
+  for (const [marketplace, expected] of [[codex, expectedCodex], [claude, expectedClaude]]) {
+    assert.equal(marketplace.plugins.length, expected.length);
     for (const { name, category } of marketplace.plugins) assert.equal(category, documented.get(name), name);
   }
   assert.ok(map.includes(`${documented.size} public plugins in ${rows.length} categories`));

@@ -428,6 +428,38 @@
       },
       "homepage": "https://github.com/PedroAVJ/near",
       "version": "0.10.3"
+    },
+    {
+      "name": "allways",
+      "description": "Read All-Ways Track loads, tracking, notes, documents, and history as source evidence.",
+      "category": "Productivity",
+      "source": {"source": "url", "url": "https://github.com/PedroAVJ/allways.git", "ref": "main"},
+      "homepage": "https://github.com/PedroAVJ/allways",
+      "version": "0.1.2"
+    },
+    {
+      "name": "google-sheets",
+      "description": "Read Google Sheets values, formulas, notes, comments, and source evidence.",
+      "category": "Productivity",
+      "source": {"source": "url", "url": "https://github.com/PedroAVJ/google-sheets.git", "ref": "main"},
+      "homepage": "https://github.com/PedroAVJ/google-sheets",
+      "version": "0.2.1"
+    },
+    {
+      "name": "hiring-manager",
+      "description": "Make direct AI staffing decisions, design roles, and review employee performance.",
+      "category": "Productivity",
+      "source": {"source": "url", "url": "https://github.com/PedroAVJ/hiring-manager.git", "ref": "main"},
+      "homepage": "https://github.com/PedroAVJ/hiring-manager",
+      "version": "0.2.0"
+    },
+    {
+      "name": "n4",
+      "description": "Review natural-language source qualitatively with a minimal highlighted text view.",
+      "category": "Developer Tools",
+      "source": {"source": "url", "url": "https://github.com/PedroAVJ/n4.git", "ref": "main"},
+      "homepage": "https://github.com/PedroAVJ/n4",
+      "version": "0.3.1"
     }
   ]
 }
