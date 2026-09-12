@@ -29,6 +29,7 @@ const categories = {
     "toolchain",
     "package-manager",
     "it-support",
+    "marketplace-it-support",
     "tech-support",
     "support-engineer",
     "n4"

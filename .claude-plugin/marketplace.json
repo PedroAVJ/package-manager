@@ -438,6 +438,14 @@
       "version": "0.4.1"
     },
     {
+      "name": "marketplace-it-support",
+      "description": "Maintain and verify marketplace tooling used by Pedro's AI employees.",
+      "category": "Developer Tools",
+      "source": {"source": "url", "url": "https://github.com/PedroAVJ/marketplace-it-support.git", "ref": "main"},
+      "homepage": "https://github.com/PedroAVJ/marketplace-it-support",
+      "version": "0.1.0"
+    },
+    {
       "name": "n4",
       "description": "Review natural-language source qualitatively with a minimal highlighted text view.",
       "category": "Developer Tools",
