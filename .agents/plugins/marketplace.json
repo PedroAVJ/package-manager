@@ -528,7 +528,7 @@
         "authentication": "ON_USE"
       },
       "category": "Memory",
-      "version": "0.10.4",
+      "version": "0.10.5",
       "description": "Read private context and think through it with Fable and Astra."
     },
     {
