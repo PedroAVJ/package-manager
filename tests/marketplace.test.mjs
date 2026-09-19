@@ -27,7 +27,7 @@ const categories = {
     "google-cloud",
     "toolchain",
     "package-manager",
-    "n4"
+    "n"
   ],
   "AI": [
     "chatgpt",
