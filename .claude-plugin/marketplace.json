@@ -433,9 +433,13 @@
       "name": "n",
       "description": "Review natural-language source qualitatively with a minimal highlighted text view.",
       "category": "Developer Tools",
-      "source": {"source": "url", "url": "https://github.com/PedroAVJ/n4.git", "ref": "main"},
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/n4.git",
+        "ref": "main"
+      },
       "homepage": "https://github.com/PedroAVJ/n4",
-      "version": "0.4.0"
+      "version": "0.4.1"
     }
   ]
 }
