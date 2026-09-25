@@ -162,7 +162,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/toolchain",
-      "version": "0.5.1"
+      "version": "0.6.0"
     },
     {
       "name": "package-manager",
