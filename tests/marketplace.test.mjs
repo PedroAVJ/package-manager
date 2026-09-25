@@ -26,8 +26,7 @@ const categories = {
     "azure",
     "google-cloud",
     "toolchain",
-    "package-manager",
-    "n"
+    "package-manager"
   ],
   "AI": [
     "chatgpt",

@@ -14,7 +14,7 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 
 | Category | Count | Plugins |
 | --- | ---: | --- |
-| **Developer Tools** | 8 | `ios`, `sentry`, `neon`, `azure`, `google-cloud`, `toolchain`, `package-manager`, `n` |
+| **Developer Tools** | 7 | `ios`, `sentry`, `neon`, `azure`, `google-cloud`, `toolchain`, `package-manager` |
 | **Productivity** | 7 | `calendar`, `reminders`, `notes`, `voice-memos`, `google-docs`, `icloud`, `writing` |
 | **AI** | 5 | `chatgpt`, `claude`, `codex`, `elevenlabs`, `openrouter` |
 | **Communication** | 5 | `contacts`, `gmail`, `messages`, `whatsapp`, `telcel` |
@@ -25,7 +25,7 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 | **Health & Fitness** | 1 | `rp-strength` |
 | **Memory** | 1 | `near` |
 
-36 public plugins in 10 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `azure`, `macbook`, and `apple-passwords` display as Azure, macOS, and Passwords.
+35 public plugins in 10 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `azure`, `macbook`, and `apple-passwords` display as Azure, macOS, and Passwords.
 
 ## Category purposes
 
