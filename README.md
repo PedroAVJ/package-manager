@@ -20,6 +20,7 @@ Use the same `plugin@package-manager` identity for other entries. See [the catal
 
 ## Package Manager skills
 
+- `package-manager:skill-creator` (Claude only) creates and evaluates skills using Anthropic's Apache-licensed workflow.
 - `package-manager:agent-skills` discovers and reviews skills, provenance, and packaging.
 - `package-manager:mcp-servers` packages and reconciles MCP capabilities.
 - `package-manager:release` validates and publishes plugins with verified client cutovers.
@@ -31,3 +32,5 @@ A repository may contain an application alongside its plugin. The catalog versio
 ## Contributing and licensing
 
 Author changes in the owning repository, validate its source, and update this catalog after publication. Public repositories must preserve upstream licenses and contain no private records or proprietary source; a private source must be named as private in [the catalog](MARKETPLACES.md). First-party Package Manager code and guidance are MIT licensed; see [icon provenance](ICON-SOURCES.md) for third-party artwork.
+
+The Claude-only `skills-claude/skill-creator` subtree is Apache-2.0, with upstream attribution and license retained within that directory.

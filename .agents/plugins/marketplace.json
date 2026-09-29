@@ -137,7 +137,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.2.13",
+      "version": "0.2.14",
       "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases."
     },
     {
