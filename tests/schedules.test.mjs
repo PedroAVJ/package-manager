@@ -8,7 +8,7 @@ const root = fileURLToPath(new URL("..", import.meta.url));
 const schedules = await readFile(join(root, "skills", "schedules", "SKILL.md"), "utf8");
 
 test("cross-source schedule example keeps the owning skills", () => {
-  assert.match(schedules, /\$gmail:review-inbox-hygiene/);
+  assert.match(schedules, /\$google-cloud:gmail-review-inbox-hygiene/);
   assert.match(schedules, /\$whatsapp:review-inbox-hygiene/);
   assert.match(schedules, /\$macos:messages-inbox-hygiene/);
   assert.match(schedules, /previous 24 hours by received\/message time/);

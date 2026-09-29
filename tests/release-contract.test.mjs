@@ -8,7 +8,7 @@ const root = fileURLToPath(new URL("..", import.meta.url));
 
 test("Package Manager owns releases through one categorized marketplace", () => {
   const release = readFileSync(join(root, "skills/release/SKILL.md"), "utf8");
-  assert.match(release, /category.*Productivity.*Developer Tools.*Communication.*Entertainment/is);
+  assert.match(release, /category.*Productivity.*Developer Tools.*Communication/is);
   assert.match(release, /primary job the plugin performs/is);
   assert.match(release, /category\s+vocabulary of the official Anthropic and OpenAI plugin marketplaces,\s+not App Store names/is);
   assert.match(release, /Vendor, platform, and implementation method do not determine membership/is);
@@ -69,14 +69,13 @@ test("the canonical catalog map records exact standalone ownership", () => {
   assert.match(map, /Product-only releases preserve the plugin version/is);
   assert.match(map, /categories\s+are metadata/i);
   assert.match(map, /plugin@package-manager/);
-  for (const name of ["Communication", "Developer Tools", "Entertainment", "Productivity"]) {
+  for (const name of ["Communication", "Developer Tools", "Productivity"]) {
     assert.match(map, new RegExp("\\*\\*" + name + "\\*\\*"));
   }
   for (const qualified of [
     "linear.*macos.*models.*near.*notion.*rappi.*writing",
     "ast-grep.*google-cloud.*ios.*lsp.*package-manager.*sentry.*toolchain",
-    "gmail.*whatsapp",
-    "youtube",
+    "whatsapp",
   ]) assert.match(map, new RegExp(qualified));
 });
 

@@ -23,8 +23,8 @@ employee role plugins. Keep Apps and Agents listings out of the public catalog:
 
 - `.agents/plugins/marketplace.json` is the Codex and ChatGPT catalog.
 - `.claude-plugin/marketplace.json` is the Claude catalog.
-- `category` groups entries as Productivity, Developer Tools, Communication,
-  or Entertainment.
+- `category` groups entries as Productivity, Developer Tools, or
+  Communication.
 - Public installation identities use `plugin@package-manager`. Private Apps and
   Agents installations use `plugin@apps` and `plugin@agents` respectively.
 

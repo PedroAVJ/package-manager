@@ -29,11 +29,7 @@ const categories = {
     "toolchain"
   ],
   "Communication": [
-    "gmail",
     "whatsapp"
-  ],
-  "Entertainment": [
-    "youtube"
   ]
 };
 

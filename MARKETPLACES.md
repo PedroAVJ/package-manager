@@ -18,17 +18,15 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 | --- | ---: | --- |
 | **Productivity** | 7 | `linear`, `macos`, `models`, `near`, `notion`, `rappi`, `writing` |
 | **Developer Tools** | 7 | `ast-grep`, `google-cloud`, `ios`, `lsp`, `package-manager`, `sentry`, `toolchain` |
-| **Communication** | 2 | `gmail`, `whatsapp` |
-| **Entertainment** | 1 | `youtube` |
+| **Communication** | 1 | `whatsapp` |
 
-17 plugins in 4 categories. Native apps and services within a plugin repository are not counted as separate plugins.
+15 plugins in 3 categories. Native apps and services within a plugin repository are not counted as separate plugins.
 
 ## Category purposes
 
 - **Productivity:** organize time, documents, files, notes, tasks, and written work, and run the personal assistants, context, credentials, host, and errands that support it. Models belongs here because it reaches other models for second opinions, images, and transcription. macOS belongs here because it operates the Mac's own apps, files, credentials, and host. Near belongs here because it retrieves separately configured personal context. Rappi belongs here because it prepares personal orders.
-- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. The ast-grep and language-server navigation plugins belong here because they search and navigate source code.
-- **Communication:** manage people, messages, and mail.
-- **Entertainment:** manage video playback and libraries, including educational content.
+- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. It also owns Google's Workspace CLI (gws), Gmail, and YouTube surfaces because they share Google's OAuth client and CLI substrate; the former `gmail` and `youtube` plugins merged into it. The ast-grep and language-server navigation plugins belong here because they search and navigate source code.
+- **Communication:** manage people and messages.
 
 ## Keep the map consistent
 

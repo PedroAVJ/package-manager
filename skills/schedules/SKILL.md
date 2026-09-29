@@ -22,7 +22,7 @@ Own schedule construction and verification. The invoked skill owns source discov
 
 If the user already keeps a desired schedule catalog, read it from `PACKAGE_MANAGER_SCHEDULES_PATH` or, by default, `~/.config/package-manager/schedules.md`. It is optional. Never infer that a saved catalog proves a schedule is live. Do not generate or persist a new catalog without a request to do so.
 
-For example, a user may request one review invoking `$gmail:review-inbox-hygiene`, `$whatsapp:review-inbox-hygiene`, and `$macos:messages-inbox-hygiene`. Each source can use its previous 24 hours by received/message time when its own contract defines that default. This is an example, not an installed schedule or a universal daily routine.
+For example, a user may request one review invoking `$google-cloud:gmail-review-inbox-hygiene`, `$whatsapp:review-inbox-hygiene`, and `$macos:messages-inbox-hygiene`. Each source can use its previous 24 hours by received/message time when its own contract defines that default. This is an example, not an installed schedule or a universal daily routine.
 
 ## Mutate and verify
 

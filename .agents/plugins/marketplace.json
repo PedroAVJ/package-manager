@@ -107,8 +107,8 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.2.11",
-      "description": "Work with Google Cloud through the gcloud CLI: project inventory, Cloud Storage, and durable artifact publishing."
+      "version": "0.3.0",
+      "description": "Google through its CLIs: gcloud (projects, Cloud Storage, artifact publishing), the Google Workspace CLI gws (Gmail, Drive, Docs, Sheets, Calendar, Tasks, People), OpenAI's connected Gmail workflows, and YouTube playlists through ytx."
     },
     {
       "name": "toolchain",
@@ -122,7 +122,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.6.2",
+      "version": "0.6.3",
       "description": "Author grounded natural-language briefs and manage requirements agreement, dependencies, and delivery alongside safe repository work."
     },
     {
@@ -137,7 +137,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.2.12",
+      "version": "0.2.13",
       "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases."
     },
     {
@@ -186,21 +186,6 @@
       "description": "Reach other models: GPT Pro second opinions, OpenAI image generation, and ElevenLabs Scribe transcription."
     },
     {
-      "name": "gmail",
-      "description": "OpenAI's connected Gmail plugin and workflows, plus raw Gmail access and bounded inbox review.",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/gmail.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Communication",
-      "version": "0.7.1"
-    },
-    {
       "name": "whatsapp",
       "description": "Use the installed whatsapp CLI with Apple Contacts identity verification for WhatsApp chats, media, guarded drafts, and approval-gated disclosed messages.",
       "source": {
@@ -214,21 +199,6 @@
       },
       "category": "Communication",
       "version": "0.11.15"
-    },
-    {
-      "name": "youtube",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/youtube.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Entertainment",
-      "version": "0.2.8",
-      "description": "Read and edit YouTube playlists through the ytx CLI over the YouTube Data API v3."
     },
     {
       "name": "rappi",

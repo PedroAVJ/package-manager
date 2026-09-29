@@ -82,7 +82,7 @@
     },
     {
       "name": "google-cloud",
-      "description": "Work with Google Cloud through the gcloud CLI: project inventory, Cloud Storage, and durable artifact publishing.",
+      "description": "Google through its CLIs: gcloud (projects, Cloud Storage, artifact publishing), the Google Workspace CLI gws (Gmail, Drive, Docs, Sheets, Calendar, Tasks, People), OpenAI's connected Gmail workflows, and YouTube playlists through ytx.",
       "category": "Developer Tools",
       "source": {
         "source": "url",
@@ -90,7 +90,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/google-cloud",
-      "version": "0.2.11"
+      "version": "0.3.0"
     },
     {
       "name": "toolchain",
@@ -102,7 +102,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/toolchain",
-      "version": "0.6.2"
+      "version": "0.6.3"
     },
     {
       "name": "package-manager",
@@ -114,7 +114,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/package-manager",
-      "version": "0.2.12"
+      "version": "0.2.13"
     },
     {
       "name": "ast-grep",
@@ -153,18 +153,6 @@
       "version": "0.1.0"
     },
     {
-      "name": "gmail",
-      "description": "OpenAI's connected Gmail plugin and workflows, plus raw Gmail access and bounded inbox review.",
-      "category": "Communication",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/gmail.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/gmail",
-      "version": "0.7.1"
-    },
-    {
       "name": "whatsapp",
       "description": "Use the installed whatsapp CLI with Apple Contacts identity verification for WhatsApp chats, media, guarded drafts, and approval-gated disclosed messages.",
       "category": "Communication",
@@ -175,18 +163,6 @@
       },
       "homepage": "https://github.com/PedroAVJ/whatsapp",
       "version": "0.11.15"
-    },
-    {
-      "name": "youtube",
-      "description": "Read and edit YouTube playlists through the ytx CLI over the YouTube Data API v3.",
-      "category": "Entertainment",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/youtube.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/youtube",
-      "version": "0.2.8"
     },
     {
       "name": "rappi",
