@@ -17,19 +17,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/macos",
-      "version": "0.1.1"
-    },
-    {
-      "name": "writing",
-      "description": "Draft directly in the user's style from relevant user-authored examples, including WhatsApp and iMessage.",
-      "category": "Productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/writing.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/writing",
-      "version": "0.5.0"
+      "version": "0.1.2"
     },
     {
       "name": "linear",
@@ -56,18 +44,6 @@
       "version": "0.2.1"
     },
     {
-      "name": "ios",
-      "description": "Engineer modern Apple-platform software with current SDK evidence, typed runtime contracts, digital validation, and production-aware native delivery.",
-      "category": "Developer Tools",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/ios.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/ios",
-      "version": "0.2.0"
-    },
-    {
       "name": "sentry",
       "description": "Sentry's MCP and complete skill library, plus bounded CLI triage, guarded remediation, and release-lineage workflows.",
       "category": "Developer Tools",
@@ -90,7 +66,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/google-cloud",
-      "version": "0.3.2"
+      "version": "0.3.3"
     },
     {
       "name": "package-manager",
@@ -141,20 +117,8 @@
       "version": "0.1.0"
     },
     {
-      "name": "models",
-      "description": "Reach other models: GPT Pro second opinions, OpenAI image generation, and ElevenLabs Scribe transcription.",
-      "category": "Productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/models.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/models",
-      "version": "0.1.0"
-    },
-    {
       "name": "whatsapp",
-      "description": "Use the installed whatsapp CLI with Apple Contacts identity verification for WhatsApp chats, media, guarded drafts, and approval-gated disclosed messages.",
+      "description": "Use the installed whatsapp CLI with Apple Contacts identity verification for WhatsApp chats, media, guarded drafts, user-voice wording for any channel, and approval-gated disclosed messages.",
       "category": "Communication",
       "source": {
         "source": "url",
@@ -162,7 +126,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/whatsapp",
-      "version": "0.11.15"
+      "version": "0.12.0"
     },
     {
       "name": "rappi",
@@ -195,8 +159,8 @@
         "url": "https://github.com/PedroAVJ/expo.git",
         "ref": "main"
       },
-      "version": "0.1.0",
-      "description": "Official Expo skills for building, deploying, upgrading, and debugging Expo and React Native apps.",
+      "version": "0.2.0",
+      "description": "Official Expo skills for building, deploying, upgrading, and debugging Expo and React Native apps, plus native Apple-platform engineering and internal TestFlight delivery.",
       "category": "Developer Tools"
     },
     {
@@ -231,6 +195,30 @@
       "version": "0.1.0",
       "description": "Build and operate Convex backends with Convex's official agent skills and local Convex MCP server.",
       "category": "Developer Tools"
+    },
+    {
+      "name": "elevenlabs",
+      "description": "Use ElevenLabs through agent audio tools and the native Dictation Button app.",
+      "category": "Productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/elevenlabs.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/elevenlabs",
+      "version": "0.7.40"
+    },
+    {
+      "name": "openai",
+      "description": "Reach OpenAI models: GPT Pro second opinions in Codex and OpenAI image generation in Claude Code.",
+      "category": "Productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/openai.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/openai",
+      "version": "0.1.0"
     }
   ]
 }

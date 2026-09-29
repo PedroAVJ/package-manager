@@ -11,13 +11,13 @@ const claude = json(join(root, ".claude-plugin/marketplace.json"));
 
 const categories = {
   "Productivity": [
+    "elevenlabs",
     "linear",
     "macos",
-    "models",
     "near",
     "notion",
-    "rappi",
-    "writing"
+    "openai",
+    "rappi"
   ],
   "Developer Tools": [
     "ast-grep",
@@ -26,7 +26,6 @@ const categories = {
     "expo",
     "github",
     "google-cloud",
-    "ios",
     "lsp",
     "package-manager",
     "sentry",
@@ -142,13 +141,17 @@ test("entries are unique, versioned, and point at PedroAVJ repositories", () => 
   }
 });
 
-test("Writing remains installed by default with synchronized discovery", () => {
-  const a = codex.plugins.find(p => p.name === "writing");
-  const b = claude.plugins.find(p => p.name === "writing");
-  assert.equal(a.category, "Productivity");
-  assert.equal(a.policy.installation, "INSTALLED_BY_DEFAULT");
-  assert.equal(a.version, b.version);
-  assert.equal(a.description, b.description);
+test("merged and split plugins stay retired from both catalogs", () => {
+  for (const retired of ["writing", "models", "ios", "toolchain"]) {
+    assert.equal(codex.plugins.find(p => p.name === retired), undefined, retired);
+    assert.equal(claude.plugins.find(p => p.name === retired), undefined, retired);
+  }
+  for (const name of ["elevenlabs", "openai", "whatsapp", "expo"]) {
+    const a = codex.plugins.find(p => p.name === name);
+    const b = claude.plugins.find(p => p.name === name);
+    assert.equal(a.version, b.version, name);
+    assert.equal(a.description, b.description, name);
+  }
 });
 
 test("the marketplace contains no copied plugin implementations", () => {
@@ -160,6 +163,7 @@ test("only the documented private sources are listed", () => {
     ["linear", "linear-graphql"],
     ["notion", "notion"],
     ["near", "near-plugin"],
+    ["openai", "openai"],
     ["expo", "expo"],
     ["github", "github"],
     ["vercel", "vercel"],

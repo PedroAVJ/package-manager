@@ -2,7 +2,7 @@
 
 A public catalog of independently versioned plugins for Codex and Claude Code. The repository also contains the Package Manager plugin for discovering, packaging, scheduling, and releasing agent capabilities.
 
-Many listed plugins have public source. `linear`, `notion`, and `near` install from private repositories, so installing them requires GitHub access to PedroAVJ's private repositories; the other private sources are listed below. Account access and private user data remain in the owning service or local configuration, never in a plugin. Named AI employee role plugins use the separate private `PedroAVJ/agents` marketplace. The former `PedroAVJ/apps` marketplace is retired; its plugins moved here or were removed.
+Many listed plugins have public source. `linear`, `notion`, `near`, and `openai` install from private repositories, so installing them requires GitHub access to PedroAVJ's private repositories; the other private sources are listed below. Account access and private user data remain in the owning service or local configuration, never in a plugin. Named AI employee role plugins use the separate private `PedroAVJ/agents` marketplace. The former `PedroAVJ/apps` marketplace is retired; its plugins moved here or were removed.
 
 The former `openai-curated` Codex plugins `expo`, `github`, `vercel`, and `convex` are also private sources here, installable in both Codex and Claude Code, with upstream licenses and attribution preserved.
 
@@ -10,10 +10,10 @@ The former `openai-curated` Codex plugins `expo`, `github`, `vercel`, and `conve
 
 ```bash
 codex plugin marketplace add PedroAVJ/package-manager --ref main
-codex plugin add writing@package-manager
+codex plugin add whatsapp@package-manager
 
 claude plugin marketplace add PedroAVJ/package-manager
-claude plugin install writing@package-manager
+claude plugin install whatsapp@package-manager
 ```
 
 Use the same `plugin@package-manager` identity for other entries. See [the catalog](MARKETPLACES.md) for categories and capabilities.

@@ -73,8 +73,8 @@ test("the canonical catalog map records exact standalone ownership", () => {
     assert.match(map, new RegExp("\\*\\*" + name + "\\*\\*"));
   }
   for (const qualified of [
-    "linear.*macos.*models.*near.*notion.*rappi.*writing",
-    "ast-grep.*azure.*google-cloud.*ios.*lsp.*package-manager.*sentry.*vercel",
+    "elevenlabs.*linear.*macos.*near.*notion.*openai.*rappi",
+    "ast-grep.*azure.*google-cloud.*lsp.*package-manager.*sentry.*vercel",
     "whatsapp",
   ]) assert.match(map, new RegExp(qualified));
 });

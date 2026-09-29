@@ -16,23 +16,8 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Operate the Mac's own apps and system: Calendar, Contacts, iCloud Drive, Messages, Notes, Reminders, Voice Memos, Passwords, memory and storage checks, and the Mac-login credential broker."
-    },
-    {
-      "name": "writing",
-      "description": "Draft directly in the user's style from relevant user-authored examples, including WhatsApp and iMessage.",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/writing.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "INSTALLED_BY_DEFAULT",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity",
-      "version": "0.5.0"
     },
     {
       "name": "linear",
@@ -65,21 +50,6 @@
       "description": "Operate Notion through the official ntn CLI with explicit workspace and content boundaries."
     },
     {
-      "name": "ios",
-      "description": "Engineer modern Apple-platform software with current SDK evidence, typed runtime contracts, digital validation, and production-aware native delivery.",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/ios.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools",
-      "version": "0.2.0"
-    },
-    {
       "name": "sentry",
       "description": "Sentry's MCP and complete skill library, plus bounded CLI triage, guarded remediation, and release-lineage workflows.",
       "source": {
@@ -107,7 +77,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "description": "Google through its CLIs: gcloud (projects, Cloud Storage, artifact publishing), the Google Workspace CLI gws (Gmail, Drive, Docs, Sheets, Calendar, Tasks, People), Gmail search, triage, and drafting workflows, and YouTube playlists through ytx."
     },
     {
@@ -171,23 +141,8 @@
       "description": "Batch TypeScript, JavaScript, Python, Bash and C# navigation through pinned language servers."
     },
     {
-      "name": "models",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/models.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity",
-      "version": "0.1.0",
-      "description": "Reach other models: GPT Pro second opinions, OpenAI image generation, and ElevenLabs Scribe transcription."
-    },
-    {
       "name": "whatsapp",
-      "description": "Use the installed whatsapp CLI with Apple Contacts identity verification for WhatsApp chats, media, guarded drafts, and approval-gated disclosed messages.",
+      "description": "Use the installed whatsapp CLI with Apple Contacts identity verification for WhatsApp chats, media, guarded drafts, user-voice wording for any channel, and approval-gated disclosed messages.",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/whatsapp.git",
@@ -198,7 +153,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Communication",
-      "version": "0.11.15"
+      "version": "0.12.0"
     },
     {
       "name": "rappi",
@@ -237,8 +192,8 @@
         "url": "https://github.com/PedroAVJ/expo.git",
         "ref": "main"
       },
-      "version": "0.1.0",
-      "description": "Official Expo skills for building, deploying, upgrading, and debugging Expo and React Native apps.",
+      "version": "0.2.0",
+      "description": "Official Expo skills for building, deploying, upgrading, and debugging Expo and React Native apps, plus native Apple-platform engineering and internal TestFlight delivery.",
       "category": "Developer Tools",
       "policy": {
         "installation": "AVAILABLE",
@@ -289,6 +244,36 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       }
+    },
+    {
+      "name": "elevenlabs",
+      "description": "Use ElevenLabs through agent audio tools and the native Dictation Button app.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/elevenlabs.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "version": "0.7.40"
+    },
+    {
+      "name": "openai",
+      "description": "Reach OpenAI models: GPT Pro second opinions in Codex and OpenAI image generation in Claude Code.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/openai.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "version": "0.1.0"
     }
   ]
 }
