@@ -4,6 +4,8 @@ A public catalog of independently versioned plugins for Codex and Claude Code. T
 
 Most listed plugins have public source. `linear`, `notion`, and `near` install from private repositories, so installing them requires GitHub access to PedroAVJ's private repositories; the rest are public. Account access and private user data remain in the owning service or local configuration, never in a plugin. Named AI employee role plugins use the separate private `PedroAVJ/agents` marketplace. The former `PedroAVJ/apps` marketplace is retired; its plugins moved here or were removed.
 
+New private plugin sources: `openai-docs`, `link`, and `hatch-pet`. Their existing capabilities were migrated without exposing source or local state publicly. Hatch Pet supports Codex only.
+
 ## Install
 
 ```bash

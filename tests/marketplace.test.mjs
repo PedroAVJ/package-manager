@@ -12,6 +12,7 @@ const claude = json(join(root, ".claude-plugin/marketplace.json"));
 const categories = {
   "Productivity": [
     "linear",
+    "link",
     "macos",
     "models",
     "near",
@@ -24,17 +25,19 @@ const categories = {
     "google-cloud",
     "ios",
     "lsp",
+    "openai-docs",
     "package-manager",
     "sentry",
     "toolchain"
   ],
+  "Creativity": ["hatch-pet"],
   "Communication": [
     "whatsapp"
   ]
 };
 
 const allPlugins = Object.values(categories).flat().sort();
-const codexOnly = new Set();
+const codexOnly = new Set(["hatch-pet"]);
 const claudeOnly = new Set();
 const expectedCodex = allPlugins.filter((name) => !claudeOnly.has(name));
 const expectedClaude = allPlugins.filter((name) => !codexOnly.has(name));
@@ -155,7 +158,10 @@ test("only the documented private sources are listed", () => {
   const privateSources = new Map([
     ["linear", "linear-graphql"],
     ["notion", "notion"],
-    ["near", "near-plugin"]
+    ["near", "near-plugin"],
+    ["openai-docs", "openai-docs"],
+    ["link", "link"],
+    ["hatch-pet", "hatch-pet"]
   ]);
   const map = readFileSync(join(root, "MARKETPLACES.md"), "utf8");
   for (const [name, repository] of privateSources) {

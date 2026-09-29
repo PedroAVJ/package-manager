@@ -90,7 +90,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/google-cloud",
-      "version": "0.3.1"
+      "version": "0.3.2"
     },
     {
       "name": "toolchain",
@@ -187,6 +187,28 @@
       },
       "homepage": "https://github.com/PedroAVJ/near-plugin",
       "version": "0.10.8"
+    },
+    {
+      "name": "openai-docs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/openai-docs.git",
+        "ref": "main"
+      },
+      "version": "0.1.0",
+      "description": "Read and search official OpenAI developer documentation through its public MCP service.",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "link",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/link.git",
+        "ref": "main"
+      },
+      "version": "0.1.0",
+      "description": "Stripe Link CLI setup, payment credentials and financial insights with upstream attribution.",
+      "category": "Productivity"
     }
   ]
 }

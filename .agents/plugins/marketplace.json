@@ -107,7 +107,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "description": "Google through its CLIs: gcloud (projects, Cloud Storage, artifact publishing), the Google Workspace CLI gws (Gmail, Drive, Docs, Sheets, Calendar, Tasks, People), Gmail search, triage, and drafting workflows, and YouTube playlists through ytx."
     },
     {
@@ -229,6 +229,51 @@
       "category": "Productivity",
       "version": "0.10.8",
       "description": "Read private context and think through it with Fable and Astra."
+    },
+    {
+      "name": "openai-docs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/openai-docs.git",
+        "ref": "main"
+      },
+      "version": "0.1.0",
+      "description": "Read and search official OpenAI developer documentation through its public MCP service.",
+      "category": "Developer Tools",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    },
+    {
+      "name": "link",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/link.git",
+        "ref": "main"
+      },
+      "version": "0.1.0",
+      "description": "Stripe Link CLI setup, payment credentials and financial insights with upstream attribution.",
+      "category": "Productivity",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    },
+    {
+      "name": "hatch-pet",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/hatch-pet.git",
+        "ref": "main"
+      },
+      "version": "0.1.0",
+      "description": "Create, repair and validate animated Codex pets using the packaged Hatch Pet skill.",
+      "category": "Creativity",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
     }
   ]
 }
