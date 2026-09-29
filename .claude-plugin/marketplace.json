@@ -92,6 +92,42 @@
       "version": "0.5.0"
     },
     {
+      "name": "google-drive",
+      "description": "Use Google Drive from Codex through the authenticated Google Workspace CLI.",
+      "category": "Productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/google-drive-plugin.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/google-drive-plugin",
+      "version": "0.1.1"
+    },
+    {
+      "name": "linear",
+      "description": "Manage Linear directly through Pedro's authenticated full GraphQL API.",
+      "category": "Productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/linear-graphql.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/linear-graphql",
+      "version": "0.2.3"
+    },
+    {
+      "name": "notion",
+      "description": "Operate Notion through the official ntn CLI with explicit workspace and content boundaries.",
+      "category": "Productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/notion.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/notion",
+      "version": "0.2.0"
+    },
+    {
       "name": "ios",
       "description": "Engineer modern Apple-platform software with current SDK evidence, typed runtime contracts, digital validation, and production-aware native delivery.",
       "category": "Developer Tools",
@@ -345,6 +381,18 @@
       "version": "0.1.1"
     },
     {
+      "name": "internal-slack",
+      "description": "Send durable messages between explicitly registered AI employees.",
+      "category": "Communication",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/internal-slack.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/internal-slack",
+      "version": "1.1.0"
+    },
+    {
       "name": "youtube",
       "description": "Read and edit YouTube playlists through the ytx CLI over the YouTube Data API v3.",
       "category": "Media",
@@ -463,6 +511,18 @@
       },
       "homepage": "https://github.com/PedroAVJ/rp-strength",
       "version": "0.1.3"
+    },
+    {
+      "name": "apple-health",
+      "description": "Ingest Apple Health device data into device-derived record series through the app's export.",
+      "category": "Health & Fitness",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/apple-health-plugin.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/apple-health-plugin",
+      "version": "0.2.2"
     },
     {
       "name": "near",

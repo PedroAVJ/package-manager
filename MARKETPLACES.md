@@ -15,29 +15,29 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 | Category | Count | Plugins |
 | --- | ---: | --- |
 | **Developer Tools** | 11 | `ios`, `sentry`, `neon`, `azure`, `google-cloud`, `toolchain`, `package-manager`, `ast-grep`, `typescript-lsp`, `python-lsp`, `bash-lsp` |
-| **Productivity** | 7 | `calendar`, `reminders`, `notes`, `voice-memos`, `google-docs`, `icloud`, `writing` |
+| **Productivity** | 10 | `calendar`, `reminders`, `notes`, `voice-memos`, `google-docs`, `icloud`, `writing`, `google-drive`, `linear`, `notion` |
+| **Communication** | 6 | `contacts`, `gmail`, `messages`, `whatsapp`, `telcel`, `internal-slack` |
 | **AI** | 5 | `chatgpt`, `claude`, `codex`, `elevenlabs`, `openrouter` |
-| **Communication** | 5 | `contacts`, `gmail`, `messages`, `whatsapp`, `telcel` |
 | **Media** | 3 | `youtube`, `youtube-music`, `samsung-tv` |
 | **Finance** | 2 | `bbva`, `sat` |
 | **Shopping** | 2 | `amazon`, `rappi` |
 | **Utilities** | 2 | `macbook`, `apple-passwords` |
-| **Health & Fitness** | 1 | `rp-strength` |
+| **Health & Fitness** | 2 | `rp-strength`, `apple-health` |
 | **Memory** | 1 | `near` |
 
-39 public plugins in 10 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `azure`, `macbook`, and `apple-passwords` display as Azure, macOS, and Passwords.
+44 plugins in 10 categories. `apple-health`, `google-drive`, `linear`, `notion`, and `internal-slack` moved here from Apps and currently install from private source repositories, so they require GitHub access to PedroAVJ's private repositories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `azure`, `macbook`, and `apple-passwords` display as Azure, macOS, and Passwords.
 
 ## Category purposes
 
-- **Productivity:** organize time, documents, files, notes, and written work. iCloud belongs here because the plugin operates personal files.
+- **Productivity:** organize time, documents, files, notes, tasks, and written work. iCloud belongs here because the plugin operates personal files.
 - **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Azure, Google Cloud, and Neon belong here because of the development work their plugins perform. The ast-grep and language-server navigation plugins belong here because they search and navigate source code.
 - **AI:** use, generate with, or operate AI assistants and models. Codex belongs here even though software development is a common use.
-- **Communication:** manage people, messages, mail, and mobile communications.
+- **Communication:** manage people, messages, mail, and mobile communications, including messaging between AI employees.
 - **Media:** manage playback and media libraries, including educational content and work-session audio. Samsung TV belongs here because playback is its primary job.
 - **Finance:** manage banking and tax work.
 - **Shopping:** prepare purchases and orders.
 - **Utilities:** operate the host environment and credentials. The macOS and Passwords plugins belong here because they provide general system utilities.
-- **Health & Fitness:** manage training and fitness work.
+- **Health & Fitness:** manage training, fitness, and device health data.
 - **Memory:** retrieve and maintain separately configured personal context. Near's placement describes its current context-repository scope and should be reviewed if that scope changes.
 
 ## Keep the map consistent

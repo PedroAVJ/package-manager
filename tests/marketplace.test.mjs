@@ -17,7 +17,10 @@ const categories = {
     "voice-memos",
     "google-docs",
     "icloud",
-    "writing"
+    "writing",
+    "google-drive",
+    "linear",
+    "notion"
   ],
   "Developer Tools": [
     "ios",
@@ -44,7 +47,8 @@ const categories = {
     "gmail",
     "messages",
     "whatsapp",
-    "telcel"
+    "telcel",
+    "internal-slack"
   ],
   "Media": [
     "youtube",
@@ -64,7 +68,8 @@ const categories = {
     "apple-passwords"
   ],
   "Health & Fitness": [
-    "rp-strength"
+    "rp-strength",
+    "apple-health"
   ],
   "Memory": [
     "near"
@@ -119,7 +124,7 @@ test("the documented map matches both catalogs without missing members or count 
     assert.equal(marketplace.plugins.length, expected.length);
     for (const { name, category } of marketplace.plugins) assert.equal(category, documented.get(name), name);
   }
-  assert.ok(map.includes(`${documented.size} public plugins in ${rows.length} categories`));
+  assert.ok(map.includes(`${documented.size} plugins in ${rows.length} categories`));
 });
 
 test("shared plugins keep source and category metadata synchronized", () => {
