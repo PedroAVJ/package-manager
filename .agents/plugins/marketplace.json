@@ -16,7 +16,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Operate the Mac's own apps and system: Calendar, Contacts, iCloud Drive, Messages, Notes, Reminders, Voice Memos, Passwords, memory and storage checks, and the Mac-login credential broker."
     },
     {
