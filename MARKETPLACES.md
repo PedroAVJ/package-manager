@@ -16,16 +16,16 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 
 | Category | Count | Plugins |
 | --- | ---: | --- |
-| **Productivity** | 13 | `apple-passwords`, `calendar`, `icloud`, `linear`, `macbook`, `models`, `near`, `notes`, `notion`, `rappi`, `reminders`, `voice-memos`, `writing` |
+| **Productivity** | 7 | `linear`, `macos`, `models`, `near`, `notion`, `rappi`, `writing` |
 | **Developer Tools** | 7 | `ast-grep`, `google-cloud`, `ios`, `lsp`, `package-manager`, `sentry`, `toolchain` |
-| **Communication** | 4 | `contacts`, `gmail`, `messages`, `whatsapp` |
+| **Communication** | 2 | `gmail`, `whatsapp` |
 | **Entertainment** | 1 | `youtube` |
 
-25 plugins in 4 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
+17 plugins in 4 categories. Native apps and services within a plugin repository are not counted as separate plugins.
 
 ## Category purposes
 
-- **Productivity:** organize time, documents, files, notes, tasks, and written work, and run the personal assistants, context, credentials, host, and errands that support it. iCloud belongs here because the plugin operates personal files. Models belongs here because it reaches other models for second opinions, images, and transcription. macOS and Passwords belong here because they operate the host environment and credentials. Near belongs here because it retrieves separately configured personal context. Rappi belongs here because it prepares personal orders.
+- **Productivity:** organize time, documents, files, notes, tasks, and written work, and run the personal assistants, context, credentials, host, and errands that support it. Models belongs here because it reaches other models for second opinions, images, and transcription. macOS belongs here because it operates the Mac's own apps, files, credentials, and host. Near belongs here because it retrieves separately configured personal context. Rappi belongs here because it prepares personal orders.
 - **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. The ast-grep and language-server navigation plugins belong here because they search and navigate source code.
 - **Communication:** manage people, messages, and mail.
 - **Entertainment:** manage video playback and libraries, including educational content.

@@ -11,18 +11,12 @@ const claude = json(join(root, ".claude-plugin/marketplace.json"));
 
 const categories = {
   "Productivity": [
-    "apple-passwords",
-    "calendar",
-    "icloud",
     "linear",
-    "macbook",
+    "macos",
     "models",
     "near",
-    "notes",
     "notion",
     "rappi",
-    "reminders",
-    "voice-memos",
     "writing"
   ],
   "Developer Tools": [
@@ -35,9 +29,7 @@ const categories = {
     "toolchain"
   ],
   "Communication": [
-    "contacts",
     "gmail",
-    "messages",
     "whatsapp"
   ],
   "Entertainment": [
