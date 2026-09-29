@@ -19,16 +19,16 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 | **Productivity** | 15 | `apple-passwords`, `calendar`, `chatgpt`, `claude`, `elevenlabs`, `icloud`, `linear`, `macbook`, `near`, `notes`, `notion`, `rappi`, `reminders`, `voice-memos`, `writing` |
 | **Developer Tools** | 11 | `ast-grep`, `bash-lsp`, `codex`, `google-cloud`, `ios`, `lsp`, `package-manager`, `python-lsp`, `sentry`, `toolchain`, `typescript-lsp` |
 | **Communication** | 4 | `contacts`, `gmail`, `messages`, `whatsapp` |
-| **Entertainment** | 2 | `youtube`, `youtube-music` |
+| **Entertainment** | 1 | `youtube` |
 
-32 plugins in 4 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
+31 plugins in 4 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
 
 ## Category purposes
 
 - **Productivity:** organize time, documents, files, notes, tasks, and written work, and run the personal assistants, context, credentials, host, and errands that support it. iCloud belongs here because the plugin operates personal files. ChatGPT, Claude, and ElevenLabs belong here as general-purpose assistants and dictation. macOS and Passwords belong here because they operate the host environment and credentials. Near belongs here because it retrieves separately configured personal context. Rappi belongs here because it prepares personal orders.
 - **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. The ast-grep and language-server navigation plugins belong here because they search and navigate source code. Codex belongs here because it is a coding agent.
 - **Communication:** manage people, messages, and mail.
-- **Entertainment:** manage music and video playback and libraries, including educational content and work-session audio.
+- **Entertainment:** manage video playback and libraries, including educational content.
 
 ## Keep the map consistent
 

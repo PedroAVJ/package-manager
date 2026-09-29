@@ -162,7 +162,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/package-manager",
-      "version": "0.2.7"
+      "version": "0.2.8"
     },
     {
       "name": "ast-grep",
@@ -331,18 +331,6 @@
       },
       "homepage": "https://github.com/PedroAVJ/youtube",
       "version": "0.2.8"
-    },
-    {
-      "name": "youtube-music",
-      "description": "Play and curate YouTube Music: throwaway session queues, a validated focus pool, and macOS Background Sounds control.",
-      "category": "Entertainment",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/youtube-music.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/youtube-music",
-      "version": "0.1.13"
     },
     {
       "name": "rappi",

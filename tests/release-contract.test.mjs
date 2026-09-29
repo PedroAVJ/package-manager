@@ -75,7 +75,7 @@ test("the canonical catalog map records exact standalone ownership", () => {
     "apple-passwords.*calendar.*chatgpt.*claude.*elevenlabs.*icloud.*linear.*macbook.*near.*notes.*notion.*rappi.*reminders.*voice-memos.*writing",
     "ast-grep.*bash-lsp.*codex.*google-cloud.*ios.*lsp.*package-manager.*python-lsp.*sentry.*toolchain.*typescript-lsp",
     "contacts.*gmail.*messages.*whatsapp",
-    "youtube.*youtube-music",
+    "youtube",
   ]) assert.match(map, new RegExp(qualified));
 });
 

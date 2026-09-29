@@ -47,8 +47,7 @@ const categories = {
     "whatsapp"
   ],
   "Entertainment": [
-    "youtube",
-    "youtube-music"
+    "youtube"
   ]
 };
 
