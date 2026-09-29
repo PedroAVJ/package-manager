@@ -117,6 +117,18 @@
       "version": "0.2.0"
     },
     {
+      "name": "azure",
+      "description": "Work across Microsoft Azure and Azure DevOps through the Azure CLI without imposing a project workflow.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/azure.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/azure",
+      "version": "0.1.6"
+    },
+    {
       "name": "lsp",
       "description": "Batch TypeScript, JavaScript, Python, Bash and C# navigation through pinned language servers.",
       "category": "Developer Tools",

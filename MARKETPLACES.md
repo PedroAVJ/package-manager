@@ -18,16 +18,16 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 
 | Category | Count | Plugins |
 | --- | ---: | --- |
-| **Developer Tools** | 10 | `ast-grep`, `convex`, `expo`, `github`, `google-cloud`, `ios`, `lsp`, `package-manager`, `sentry`, `vercel` |
+| **Developer Tools** | 11 | `ast-grep`, `azure`, `convex`, `expo`, `github`, `google-cloud`, `ios`, `lsp`, `package-manager`, `sentry`, `vercel` |
 | **Productivity** | 7 | `linear`, `macos`, `models`, `near`, `notion`, `rappi`, `writing` |
 | **Communication** | 1 | `whatsapp` |
 
-18 plugins in 3 categories. Native apps and services within a plugin repository are not counted as separate plugins.
+19 plugins in 3 categories. Native apps and services within a plugin repository are not counted as separate plugins.
 
 ## Category purposes
 
 - **Productivity:** organize time, documents, files, notes, tasks, and written work, and run the personal assistants, context, credentials, host, and errands that support it. Models belongs here because it reaches other models for second opinions, images, and transcription. macOS belongs here because it operates the Mac's own apps, files, credentials, and host. Near belongs here because it retrieves separately configured personal context. Rappi belongs here because it prepares personal orders.
-- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. It also owns Google's Workspace CLI (gws), Gmail, and YouTube surfaces because they share Google's OAuth client and CLI substrate; the former `gmail` and `youtube` plugins merged into it. The ast-grep and language-server navigation plugins belong here because they search and navigate source code. Expo, GitHub, Vercel, and Convex belong here because they build, host, or version software.
+- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. It also owns Google's Workspace CLI (gws), Gmail, and YouTube surfaces because they share Google's OAuth client and CLI substrate; the former `gmail` and `youtube` plugins merged into it. Azure belongs here because it operates Azure resources and Azure DevOps through the Azure CLI. The ast-grep and language-server navigation plugins belong here because they search and navigate source code. Expo, GitHub, Vercel, and Convex belong here because they build, host, or version software.
 - **Communication:** manage people and messages.
 
 ## Keep the map consistent

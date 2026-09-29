@@ -141,6 +141,21 @@
       "description": "Batch structural code searches with compact results to reduce model round trips."
     },
     {
+      "name": "azure",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/azure.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "version": "0.1.6",
+      "description": "Work across Microsoft Azure and Azure DevOps through the Azure CLI without imposing a project workflow."
+    },
+    {
       "name": "lsp",
       "source": {
         "source": "url",

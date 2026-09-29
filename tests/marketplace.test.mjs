@@ -21,6 +21,7 @@ const categories = {
   ],
   "Developer Tools": [
     "ast-grep",
+    "azure",
     "convex",
     "expo",
     "github",
