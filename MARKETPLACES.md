@@ -2,9 +2,11 @@
 
 Plugins are programs. Each is independently versioned in its own repository. The catalog version identifies the agent-loadable plugin contract. Product-only releases preserve the plugin version and do not refresh installed clients.
 
-Package Manager is the public marketplace at `PedroAVJ/package-manager` for general-purpose plugins. Its two client catalogs use external sources. Categories are metadata inside the catalog, not separate marketplaces. Qualified public identities use `plugin@package-manager`.
+Package Manager is the marketplace at `PedroAVJ/package-manager`. The catalog repository is public; its two client catalogs point at external plugin repositories. Categories are metadata inside the catalog, not separate marketplaces. Qualified identities use `plugin@package-manager`.
 
-`PedroAVJ/apps` is the separate private marketplace for named applications, platforms, and services. `PedroAVJ/agents` is the separate private marketplace for named AI employee role plugins. Codex and Claude manifests are client compatibility surfaces within each marketplace, not a functional marketplace split. A public plugin must not require a private marketplace to install. Near supports separately configured private context; it ships no person's records or default private repository.
+Most listed plugins have public source. `linear`, `notion`, and `near` install from private repositories (`PedroAVJ/linear-graphql`, `PedroAVJ/notion`, and `PedroAVJ/near-plugin`), so installing them requires GitHub access to those repositories. A public plugin must not depend on a private one. Codex and Claude manifests are client compatibility surfaces within the marketplace, not a functional marketplace split. Near supports separately configured private context; it ships no person's records.
+
+Named AI employee role plugins live in the separate private `PedroAVJ/agents` marketplace. The former private `PedroAVJ/apps` marketplace is no longer configured in either client; its remaining plugins moved here or were retired.
 
 ## Category naming rule
 
@@ -14,30 +16,28 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 
 | Category | Count | Plugins |
 | --- | ---: | --- |
-| **Developer Tools** | 11 | `ios`, `sentry`, `neon`, `azure`, `google-cloud`, `toolchain`, `package-manager`, `ast-grep`, `typescript-lsp`, `python-lsp`, `bash-lsp` |
-| **Productivity** | 10 | `calendar`, `reminders`, `notes`, `voice-memos`, `google-docs`, `icloud`, `writing`, `google-drive`, `linear`, `notion` |
-| **Communication** | 6 | `contacts`, `gmail`, `messages`, `whatsapp`, `telcel`, `internal-slack` |
+| **Developer Tools** | 10 | `ios`, `sentry`, `google-cloud`, `toolchain`, `package-manager`, `ast-grep`, `lsp`, `typescript-lsp`, `python-lsp`, `bash-lsp` |
+| **Productivity** | 8 | `calendar`, `reminders`, `notes`, `voice-memos`, `icloud`, `writing`, `linear`, `notion` |
 | **AI** | 5 | `chatgpt`, `claude`, `codex`, `elevenlabs`, `openrouter` |
-| **Media** | 3 | `youtube`, `youtube-music`, `samsung-tv` |
-| **Finance** | 2 | `bbva`, `sat` |
-| **Shopping** | 2 | `amazon`, `rappi` |
+| **Communication** | 4 | `contacts`, `gmail`, `messages`, `whatsapp` |
+| **Media** | 2 | `youtube`, `youtube-music` |
 | **Utilities** | 2 | `macbook`, `apple-passwords` |
-| **Health & Fitness** | 2 | `rp-strength`, `apple-health` |
+| **Finance** | 1 | `sat` |
+| **Shopping** | 1 | `rappi` |
 | **Memory** | 1 | `near` |
 
-44 plugins in 10 categories. `apple-health`, `google-drive`, `linear`, `notion`, and `internal-slack` moved here from Apps and currently install from private source repositories, so they require GitHub access to PedroAVJ's private repositories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `azure`, `macbook`, and `apple-passwords` display as Azure, macOS, and Passwords.
+34 plugins in 9 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
 
 ## Category purposes
 
 - **Productivity:** organize time, documents, files, notes, tasks, and written work. iCloud belongs here because the plugin operates personal files.
-- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Azure, Google Cloud, and Neon belong here because of the development work their plugins perform. The ast-grep and language-server navigation plugins belong here because they search and navigate source code.
+- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. The ast-grep and language-server navigation plugins belong here because they search and navigate source code.
 - **AI:** use, generate with, or operate AI assistants and models. Codex belongs here even though software development is a common use.
-- **Communication:** manage people, messages, mail, and mobile communications, including messaging between AI employees.
-- **Media:** manage playback and media libraries, including educational content and work-session audio. Samsung TV belongs here because playback is its primary job.
-- **Finance:** manage banking and tax work.
+- **Communication:** manage people, messages, and mail.
+- **Media:** manage playback and media libraries, including educational content and work-session audio.
+- **Finance:** manage tax work.
 - **Shopping:** prepare purchases and orders.
 - **Utilities:** operate the host environment and credentials. The macOS and Passwords plugins belong here because they provide general system utilities.
-- **Health & Fitness:** manage training, fitness, and device health data.
 - **Memory:** retrieve and maintain separately configured personal context. Near's placement describes its current context-repository scope and should be reviewed if that scope changes.
 
 ## Keep the map consistent

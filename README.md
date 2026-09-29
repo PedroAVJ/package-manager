@@ -2,7 +2,7 @@
 
 A public catalog of independently versioned plugins for Codex and Claude Code. The repository also contains the Package Manager plugin for discovering, packaging, scheduling, and releasing agent capabilities.
 
-Every listed plugin has public source. Account access and private user data remain in the owning service or local configuration. Named applications, platforms, and services use the private `PedroAVJ/apps` marketplace; named AI employee role plugins use the private `PedroAVJ/agents` marketplace. Neither belongs here.
+Most listed plugins have public source. `linear`, `notion`, and `near` install from private repositories, so installing them requires GitHub access to PedroAVJ's private repositories; the rest are public. Account access and private user data remain in the owning service or local configuration, never in a plugin. Named AI employee role plugins use the separate private `PedroAVJ/agents` marketplace. The former `PedroAVJ/apps` marketplace is retired; its plugins moved here or were removed.
 
 ## Install
 
@@ -28,4 +28,4 @@ A repository may contain an application alongside its plugin. The catalog versio
 
 ## Contributing and licensing
 
-Author changes in the owning repository, validate its source, and update this catalog after publication. Public releases must preserve upstream licenses and contain no private records or proprietary source. First-party Package Manager code and guidance are MIT licensed; see [icon provenance](ICON-SOURCES.md) for third-party artwork.
+Author changes in the owning repository, validate its source, and update this catalog after publication. Public repositories must preserve upstream licenses and contain no private records or proprietary source; a private source must be named as private in [the catalog](MARKETPLACES.md). First-party Package Manager code and guidance are MIT licensed; see [icon provenance](ICON-SOURCES.md) for third-party artwork.

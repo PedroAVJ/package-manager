@@ -68,21 +68,20 @@ test("the canonical catalog map records exact standalone ownership", () => {
   assert.match(map, /Product-only releases preserve the plugin version/is);
   assert.match(map, /categories\s+are metadata/i);
   assert.match(map, /plugin@package-manager/);
-  for (const name of ["AI", "Communication", "Developer Tools", "Finance", "Health & Fitness", "Media", "Memory", "Productivity", "Shopping", "Utilities"]) {
+  for (const name of ["AI", "Communication", "Developer Tools", "Finance", "Media", "Memory", "Productivity", "Shopping", "Utilities"]) {
     assert.match(map, new RegExp("\\*\\*" + name + "\\*\\*"));
   }
   for (const qualified of [
     "chatgpt.*claude.*codex.*elevenlabs.*openrouter",
-    "ios.*sentry.*neon.*azure.*google-cloud.*toolchain.*package-manager",
+    "ios.*sentry.*google-cloud.*toolchain.*package-manager",
     "contacts.*gmail.*messages.*whatsapp",
     "toolchain",
-    "calendar.*reminders.*notes.*voice-memos.*google-docs.*icloud.*writing",
+    "calendar.*reminders.*notes.*voice-memos.*icloud.*writing",
     "youtube.*youtube-music",
-    "amazon.*rappi",
+    "rappi",
     "near",
-    "rp-strength",
     "macbook.*apple-passwords",
-    "bbva.*sat",
+    "sat",
   ]) assert.match(map, new RegExp(qualified));
 });
 

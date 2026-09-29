@@ -53,19 +53,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/voice-memos",
-      "version": "0.7.14"
-    },
-    {
-      "name": "google-docs",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/google-docs.git",
-        "ref": "main"
-      },
-      "category": "Productivity",
-      "homepage": "https://github.com/PedroAVJ/google-docs",
-      "version": "0.2.0",
-      "description": "Create, inspect, edit, import, and share Google Docs through the local Google Workspace CLI."
+      "version": "0.7.15"
     },
     {
       "name": "icloud",
@@ -92,18 +80,6 @@
       "version": "0.5.0"
     },
     {
-      "name": "google-drive",
-      "description": "Use Google Drive from Codex through the authenticated Google Workspace CLI.",
-      "category": "Productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/google-drive-plugin.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/google-drive-plugin",
-      "version": "0.1.1"
-    },
-    {
       "name": "linear",
       "description": "Manage Linear directly through Pedro's authenticated full GraphQL API.",
       "category": "Productivity",
@@ -113,7 +89,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/linear-graphql",
-      "version": "0.2.3"
+      "version": "0.2.4"
     },
     {
       "name": "notion",
@@ -125,7 +101,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/notion",
-      "version": "0.2.0"
+      "version": "0.2.1"
     },
     {
       "name": "ios",
@@ -153,30 +129,6 @@
       "version": "1.4.1"
     },
     {
-      "name": "neon",
-      "description": "Decide when work warrants an isolated, 72-hour Neon database branch and manage it with official Neon tooling.",
-      "category": "Developer Tools",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/neon.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/neon",
-      "version": "0.2.4"
-    },
-    {
-      "name": "azure",
-      "description": "Work across Microsoft Azure and Azure DevOps through the Azure CLI without imposing a project workflow.",
-      "category": "Developer Tools",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/azure.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/azure",
-      "version": "0.1.6"
-    },
-    {
       "name": "google-cloud",
       "description": "Work with Google Cloud through the gcloud CLI: project inventory, Cloud Storage, and durable artifact publishing.",
       "category": "Developer Tools",
@@ -186,7 +138,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/google-cloud",
-      "version": "0.2.10"
+      "version": "0.2.11"
     },
     {
       "name": "toolchain",
@@ -198,7 +150,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/toolchain",
-      "version": "0.6.0"
+      "version": "0.6.1"
     },
     {
       "name": "package-manager",
@@ -210,7 +162,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/package-manager",
-      "version": "0.2.3"
+      "version": "0.2.4"
     },
     {
       "name": "ast-grep",
@@ -223,6 +175,18 @@
       },
       "homepage": "https://github.com/PedroAVJ/ast-grep",
       "version": "0.2.0"
+    },
+    {
+      "name": "lsp",
+      "description": "Batch TypeScript, JavaScript, Python, Bash and C# navigation through pinned language servers.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/lsp.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/lsp",
+      "version": "0.1.0"
     },
     {
       "name": "typescript-lsp",
@@ -369,30 +333,6 @@
       "version": "0.11.14"
     },
     {
-      "name": "telcel",
-      "description": "Operate Telcel usage, packages, data top-ups, and recurring-package changes with live verification.",
-      "category": "Communication",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/telcel.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/telcel",
-      "version": "0.1.1"
-    },
-    {
-      "name": "internal-slack",
-      "description": "Send durable messages between explicitly registered AI employees.",
-      "category": "Communication",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/internal-slack.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/internal-slack",
-      "version": "1.1.0"
-    },
-    {
       "name": "youtube",
       "description": "Read and edit YouTube playlists through the ytx CLI over the YouTube Data API v3.",
       "category": "Media",
@@ -417,30 +357,6 @@
       "version": "0.1.12"
     },
     {
-      "name": "samsung-tv",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/samsung-tv.git",
-        "ref": "main"
-      },
-      "category": "Media",
-      "homepage": "https://github.com/PedroAVJ/samsung-tv",
-      "version": "0.2.1",
-      "description": "Discover, pair, and control Samsung Tizen TVs on a local network with a portable CLI and MCP server."
-    },
-    {
-      "name": "bbva",
-      "description": "Independent financial net worth and net cash run rate reviews with private item-level estimates and correction history.",
-      "category": "Finance",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/bbva.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/bbva",
-      "version": "0.2.6"
-    },
-    {
       "name": "sat",
       "description": "Manage private SAT records, annual returns, CFDIs, and tax installment schedules through a local store.",
       "category": "Finance",
@@ -451,18 +367,6 @@
       },
       "homepage": "https://github.com/PedroAVJ/sat",
       "version": "0.1.3"
-    },
-    {
-      "name": "amazon",
-      "description": "Prepare Amazon purchases as reversible cart proposals and require the user's final approval.",
-      "category": "Shopping",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/amazon.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/amazon",
-      "version": "0.1.10"
     },
     {
       "name": "rappi",
@@ -501,40 +405,15 @@
       "description": "Use Apple Passwords autofill in Google Chrome without exposing saved credentials to the assistant."
     },
     {
-      "name": "rp-strength",
-      "description": "Own the user's gym and hypertrophy-training workflow through the configured training Google Sheet.",
-      "category": "Health & Fitness",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/rp-strength.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/rp-strength",
-      "version": "0.1.3"
-    },
-    {
-      "name": "apple-health",
-      "description": "Ingest Apple Health device data into device-derived record series through the app's export.",
-      "category": "Health & Fitness",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/apple-health-plugin.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/apple-health-plugin",
-      "version": "0.2.2"
-    },
-    {
       "name": "near",
       "description": "Read private context and think through it with Fable and Astra.",
       "category": "Memory",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/PedroAVJ/near.git",
-        "path": "./plugins/near",
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/near-plugin.git",
         "ref": "main"
       },
-      "homepage": "https://github.com/PedroAVJ/near",
+      "homepage": "https://github.com/PedroAVJ/near-plugin",
       "version": "0.10.5"
     }
   ]

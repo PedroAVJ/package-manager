@@ -10,30 +10,27 @@ const codex = json(join(root, ".agents/plugins/marketplace.json"));
 const claude = json(join(root, ".claude-plugin/marketplace.json"));
 
 const categories = {
+  "Developer Tools": [
+    "ios",
+    "sentry",
+    "google-cloud",
+    "toolchain",
+    "package-manager",
+    "ast-grep",
+    "lsp",
+    "typescript-lsp",
+    "python-lsp",
+    "bash-lsp"
+  ],
   "Productivity": [
     "calendar",
     "reminders",
     "notes",
     "voice-memos",
-    "google-docs",
     "icloud",
     "writing",
-    "google-drive",
     "linear",
     "notion"
-  ],
-  "Developer Tools": [
-    "ios",
-    "sentry",
-    "neon",
-    "azure",
-    "google-cloud",
-    "toolchain",
-    "package-manager",
-    "ast-grep",
-    "typescript-lsp",
-    "python-lsp",
-    "bash-lsp"
   ],
   "AI": [
     "chatgpt",
@@ -46,30 +43,21 @@ const categories = {
     "contacts",
     "gmail",
     "messages",
-    "whatsapp",
-    "telcel",
-    "internal-slack"
+    "whatsapp"
   ],
   "Media": [
     "youtube",
-    "youtube-music",
-    "samsung-tv"
-  ],
-  "Finance": [
-    "bbva",
-    "sat"
-  ],
-  "Shopping": [
-    "amazon",
-    "rappi"
+    "youtube-music"
   ],
   "Utilities": [
     "macbook",
     "apple-passwords"
   ],
-  "Health & Fitness": [
-    "rp-strength",
-    "apple-health"
+  "Finance": [
+    "sat"
+  ],
+  "Shopping": [
+    "rappi"
   ],
   "Memory": [
     "near"
@@ -130,7 +118,6 @@ test("the documented map matches both catalogs without missing members or count 
 test("shared plugins keep source and category metadata synchronized", () => {
   const claudeByName = new Map(claude.plugins.map((entry) => [entry.name, entry]));
   const sparseSources = new Map([
-    ["near", "./plugins/near"],
     ["sentry", "./plugins/sentry"],
   ]);
   for (const entry of codex.plugins) {
@@ -159,7 +146,7 @@ test("shared plugins keep source and category metadata synchronized", () => {
   }
 });
 
-test("public entries are unique, versioned, and have public-source shapes", () => {
+test("entries are unique, versioned, and point at PedroAVJ repositories", () => {
   for (const marketplace of [codex, claude]) {
     const names = marketplace.plugins.map(p => p.name);
     assert.equal(new Set(names).size, names.length);
@@ -182,4 +169,20 @@ test("Writing remains installed by default with synchronized discovery", () => {
 
 test("the marketplace contains no copied plugin implementations", () => {
   assert.equal(existsSync(join(root, "plugins")), false);
+});
+
+test("only the documented private sources are listed", () => {
+  const privateSources = new Map([
+    ["linear", "linear-graphql"],
+    ["notion", "notion"],
+    ["near", "near-plugin"],
+  ]);
+  const map = readFileSync(join(root, "MARKETPLACES.md"), "utf8");
+  for (const [name, repository] of privateSources) {
+    const entry = codex.plugins.find((plugin) => plugin.name === name);
+    assert.equal(entry?.source.url, `https://github.com/PedroAVJ/${repository}.git`, name);
+    assert.match(map, new RegExp("`PedroAVJ/" + repository + "`"));
+  }
+  const readme = readFileSync(join(root, "README.md"), "utf8");
+  for (const name of privateSources.keys()) assert.match(readme, new RegExp("`" + name + "`"));
 });
