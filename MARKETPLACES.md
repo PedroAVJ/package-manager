@@ -4,7 +4,7 @@ Plugins are programs. Each is independently versioned in its own repository. The
 
 Package Manager is the marketplace at `PedroAVJ/package-manager`. The catalog repository is public; its two client catalogs point at external plugin repositories. Categories are metadata inside the catalog, not separate marketplaces. Qualified identities use `plugin@package-manager`.
 
-Most listed plugins have public source. `linear`, `notion`, and `near` install from private repositories (`PedroAVJ/linear-graphql`, `PedroAVJ/notion`, and `PedroAVJ/near-plugin`), so installing them requires GitHub access to those repositories. A public plugin must not depend on a private one. Codex and Claude manifests are client compatibility surfaces within the marketplace, not a functional marketplace split. `codex` is Claude-only: it is listed only in the Claude catalog because Codex generates images natively. Near supports separately configured private context; it ships no person's records.
+Most listed plugins have public source. `linear`, `notion`, and `near` install from private repositories (`PedroAVJ/linear-graphql`, `PedroAVJ/notion`, and `PedroAVJ/near-plugin`), so installing them requires GitHub access to those repositories. A public plugin must not depend on a private one. Codex and Claude manifests are client compatibility surfaces within the marketplace, not a functional marketplace split. `models` ships different skills to each client through its two manifests. Near supports separately configured private context; it ships no person's records.
 
 Named AI employee role plugins live in the separate private `PedroAVJ/agents` marketplace. The former private `PedroAVJ/apps` marketplace is no longer configured in either client; its remaining plugins moved here or were retired.
 
@@ -16,17 +16,17 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 
 | Category | Count | Plugins |
 | --- | ---: | --- |
-| **Productivity** | 14 | `apple-passwords`, `calendar`, `chatgpt`, `elevenlabs`, `icloud`, `linear`, `macbook`, `near`, `notes`, `notion`, `rappi`, `reminders`, `voice-memos`, `writing` |
-| **Developer Tools** | 8 | `ast-grep`, `codex`, `google-cloud`, `ios`, `lsp`, `package-manager`, `sentry`, `toolchain` |
+| **Productivity** | 13 | `apple-passwords`, `calendar`, `icloud`, `linear`, `macbook`, `models`, `near`, `notes`, `notion`, `rappi`, `reminders`, `voice-memos`, `writing` |
+| **Developer Tools** | 7 | `ast-grep`, `google-cloud`, `ios`, `lsp`, `package-manager`, `sentry`, `toolchain` |
 | **Communication** | 4 | `contacts`, `gmail`, `messages`, `whatsapp` |
 | **Entertainment** | 1 | `youtube` |
 
-27 plugins in 4 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
+25 plugins in 4 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
 
 ## Category purposes
 
-- **Productivity:** organize time, documents, files, notes, tasks, and written work, and run the personal assistants, context, credentials, host, and errands that support it. iCloud belongs here because the plugin operates personal files. ChatGPT and ElevenLabs belong here as general-purpose assistants and dictation. macOS and Passwords belong here because they operate the host environment and credentials. Near belongs here because it retrieves separately configured personal context. Rappi belongs here because it prepares personal orders.
-- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. The ast-grep and language-server navigation plugins belong here because they search and navigate source code. Codex belongs here because it drives the Codex CLI from Claude Code for image generation and code reviews.
+- **Productivity:** organize time, documents, files, notes, tasks, and written work, and run the personal assistants, context, credentials, host, and errands that support it. iCloud belongs here because the plugin operates personal files. Models belongs here because it reaches other models for second opinions, images, and transcription. macOS and Passwords belong here because they operate the host environment and credentials. Near belongs here because it retrieves separately configured personal context. Rappi belongs here because it prepares personal orders.
+- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. The ast-grep and language-server navigation plugins belong here because they search and navigate source code.
 - **Communication:** manage people, messages, and mail.
 - **Entertainment:** manage video playback and libraries, including educational content.
 

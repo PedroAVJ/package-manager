@@ -162,7 +162,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/package-manager",
-      "version": "0.2.10"
+      "version": "0.2.11"
     },
     {
       "name": "ast-grep",
@@ -189,40 +189,16 @@
       "version": "0.1.0"
     },
     {
-      "name": "chatgpt",
-      "description": "Ask GPT Pro, ChatGPT's Pro mode, for independent second opinions through the ChatGPT desktop app's in-app browser.",
+      "name": "models",
+      "description": "Reach other models: GPT Pro second opinions, OpenAI image generation, and ElevenLabs Scribe transcription.",
       "category": "Productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/PedroAVJ/chatgpt.git",
+        "url": "https://github.com/PedroAVJ/models.git",
         "ref": "main"
       },
-      "homepage": "https://github.com/PedroAVJ/chatgpt",
-      "version": "0.3.0"
-    },
-    {
-      "name": "codex",
-      "description": "Generate and edit images with OpenAI image generation from Claude Code through the Codex CLI or the OpenAI Image API, plus Codex code-review commands.",
-      "category": "Developer Tools",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/codex.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/codex",
-      "version": "0.9.0"
-    },
-    {
-      "name": "elevenlabs",
-      "description": "Use ElevenLabs through agent audio tools and the native Dictation Button app.",
-      "category": "Productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/elevenlabs.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/elevenlabs",
-      "version": "0.7.39"
+      "homepage": "https://github.com/PedroAVJ/models",
+      "version": "0.1.0"
     },
     {
       "name": "contacts",

@@ -7,7 +7,7 @@ import test from "node:test";
 const root = fileURLToPath(new URL("..", import.meta.url));
 const expected = {
   "name": "package-manager",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "url": "https://github.com/PedroAVJ/package-manager",
   "dependencies": []
 };

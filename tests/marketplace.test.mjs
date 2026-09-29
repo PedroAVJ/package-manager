@@ -13,11 +13,10 @@ const categories = {
   "Productivity": [
     "apple-passwords",
     "calendar",
-    "chatgpt",
-    "elevenlabs",
     "icloud",
     "linear",
     "macbook",
+    "models",
     "near",
     "notes",
     "notion",
@@ -28,7 +27,6 @@ const categories = {
   ],
   "Developer Tools": [
     "ast-grep",
-    "codex",
     "google-cloud",
     "ios",
     "lsp",
@@ -49,7 +47,7 @@ const categories = {
 
 const allPlugins = Object.values(categories).flat().sort();
 const codexOnly = new Set();
-const claudeOnly = new Set(["codex"]);
+const claudeOnly = new Set();
 const expectedCodex = allPlugins.filter((name) => !claudeOnly.has(name));
 const expectedClaude = allPlugins.filter((name) => !codexOnly.has(name));
 const allEntries = [...codex.plugins, ...claude.plugins.filter(({ name }) => claudeOnly.has(name))];
