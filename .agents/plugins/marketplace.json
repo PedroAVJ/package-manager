@@ -122,7 +122,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.6.3",
+      "version": "0.6.4",
       "description": "Author grounded natural-language briefs and manage requirements agreement, dependencies, and delivery alongside safe repository work."
     },
     {

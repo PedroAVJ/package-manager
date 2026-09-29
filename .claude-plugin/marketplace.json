@@ -102,7 +102,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/toolchain",
-      "version": "0.6.3"
+      "version": "0.6.4"
     },
     {
       "name": "package-manager",
