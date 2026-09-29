@@ -20,10 +20,9 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 | **Developer Tools** | 11 | `ast-grep`, `bash-lsp`, `codex`, `google-cloud`, `ios`, `lsp`, `package-manager`, `python-lsp`, `sentry`, `toolchain`, `typescript-lsp` |
 | **Communication** | 4 | `contacts`, `gmail`, `messages`, `whatsapp` |
 | **Entertainment** | 2 | `youtube`, `youtube-music` |
-| **Creativity** | 1 | `openrouter` |
 | **Finance** | 1 | `sat` |
 
-34 plugins in 6 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
+33 plugins in 5 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
 
 ## Category purposes
 
@@ -31,7 +30,6 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 - **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. The ast-grep and language-server navigation plugins belong here because they search and navigate source code. Codex belongs here because it is a coding agent.
 - **Communication:** manage people, messages, and mail.
 - **Entertainment:** manage music and video playback and libraries, including educational content and work-session audio.
-- **Creativity:** generate media with AI models. OpenRouter belongs here because its skill generates video.
 - **Finance:** manage tax work.
 
 ## Keep the map consistent

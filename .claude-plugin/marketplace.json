@@ -162,7 +162,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/package-manager",
-      "version": "0.2.5"
+      "version": "0.2.6"
     },
     {
       "name": "ast-grep",
@@ -271,18 +271,6 @@
       },
       "homepage": "https://github.com/PedroAVJ/elevenlabs",
       "version": "0.7.38"
-    },
-    {
-      "name": "openrouter",
-      "description": "Use OpenRouter's multi-model API, beginning with guarded text-to-video and reference-to-video generation.",
-      "category": "Creativity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/openrouter.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/openrouter",
-      "version": "0.1.5"
     },
     {
       "name": "contacts",

@@ -50,9 +50,6 @@ const categories = {
     "youtube",
     "youtube-music"
   ],
-  "Creativity": [
-    "openrouter"
-  ],
   "Finance": [
     "sat"
   ]

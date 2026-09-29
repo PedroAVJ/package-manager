@@ -197,7 +197,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases."
     },
     {
@@ -334,21 +334,6 @@
       "category": "Productivity",
       "version": "0.7.38",
       "description": "Use ElevenLabs through agent audio tools and the native Dictation Button app."
-    },
-    {
-      "name": "openrouter",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/openrouter.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Creativity",
-      "version": "0.1.5",
-      "description": "Use OpenRouter's multi-model API, beginning with guarded text-to-video and reference-to-video generation."
     },
     {
       "name": "contacts",
