@@ -197,7 +197,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.2.8",
+      "version": "0.2.9",
       "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases."
     },
     {
@@ -304,21 +304,6 @@
       "category": "Productivity",
       "version": "0.5.25",
       "description": "Talk with Claude Fable 5.1, author in Claude Design, create visual explainers, request max-effort verified second opinions, and operate Claude Code Remote Control."
-    },
-    {
-      "name": "codex",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/codex.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools",
-      "version": "0.8.33",
-      "description": "Use OpenAI Codex through its CLI and app-server, with realtime task orchestration, shared memory, review and rescue handoffs, coding contracts, and the Codex Voice Apple Watch companion."
     },
     {
       "name": "elevenlabs",
@@ -467,7 +452,7 @@
         "authentication": "ON_USE"
       },
       "category": "Productivity",
-      "version": "0.10.6",
+      "version": "0.10.8",
       "description": "Read private context and think through it with Fable and Astra."
     }
   ]

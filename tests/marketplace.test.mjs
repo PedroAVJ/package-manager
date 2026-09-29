@@ -51,9 +51,12 @@ const categories = {
   ]
 };
 
-const expectedCodex = Object.values(categories).flat().sort();
+const allPlugins = Object.values(categories).flat().sort();
 const codexOnly = new Set();
-const expectedClaude = expectedCodex.filter((name) => !codexOnly.has(name));
+const claudeOnly = new Set(["codex"]);
+const expectedCodex = allPlugins.filter((name) => !claudeOnly.has(name));
+const expectedClaude = allPlugins.filter((name) => !codexOnly.has(name));
+const allEntries = [...codex.plugins, ...claude.plugins.filter(({ name }) => claudeOnly.has(name))];
 
 test("Package Manager contains every semantic category", () => {
   assert.equal(codex.name, "package-manager");
@@ -65,11 +68,11 @@ test("Package Manager contains every semantic category", () => {
   );
   assert.deepEqual(codex.plugins.map(({ name }) => name).sort(), expectedCodex);
   assert.deepEqual(claude.plugins.map(({ name }) => name).sort(), expectedClaude);
-  assert.equal(new Set(expectedCodex).size, expectedCodex.length, "one primary category per plugin");
-  assert.deepEqual([...new Set(codex.plugins.map(({ category }) => category))].sort(), Object.keys(categories).sort());
+  assert.equal(new Set(allPlugins).size, allPlugins.length, "one primary category per plugin");
+  assert.deepEqual([...new Set(allEntries.map(({ category }) => category))].sort(), Object.keys(categories).sort());
 
   for (const [category, names] of Object.entries(categories)) {
-    const actual = codex.plugins
+    const actual = allEntries
       .filter((entry) => entry.category === category)
       .map((entry) => entry.name)
       .sort();
@@ -100,6 +103,7 @@ test("the documented map matches both catalogs without missing members or count 
     for (const { name, category } of marketplace.plugins) assert.equal(category, documented.get(name), name);
   }
   assert.ok(map.includes(`${documented.size} plugins in ${rows.length} categories`));
+  for (const name of claudeOnly) assert.match(map, new RegExp("`" + name + "` is Claude-only"));
 });
 
 test("shared plugins keep source and category metadata synchronized", () => {
@@ -130,6 +134,13 @@ test("shared plugins keep source and category metadata synchronized", () => {
     assert.deepEqual(counterpart.source, entry.source);
     assert.equal(counterpart.category, entry.category);
     assert.equal(typeof counterpart.version, "string");
+  }
+  for (const name of claudeOnly) {
+    assert.equal(codex.plugins.find((entry) => entry.name === name), undefined, `${name} is Claude-only`);
+    const entry = claudeByName.get(name);
+    assert.ok(entry, `${name} is missing from Claude's catalog`);
+    assert.equal(entry.source?.source, "url");
+    assert.equal(entry.source?.ref, "main");
   }
 });
 
