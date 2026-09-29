@@ -234,7 +234,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/chatgpt",
-      "version": "0.2.5"
+      "version": "0.2.6"
     },
     {
       "name": "claude",
@@ -246,7 +246,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/claude",
-      "version": "0.5.24"
+      "version": "0.5.25"
     },
     {
       "name": "codex",
@@ -258,7 +258,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/codex",
-      "version": "0.8.32"
+      "version": "0.8.33"
     },
     {
       "name": "elevenlabs",
@@ -270,7 +270,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/elevenlabs",
-      "version": "0.7.37"
+      "version": "0.7.38"
     },
     {
       "name": "openrouter",
@@ -282,7 +282,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/openrouter",
-      "version": "0.1.4"
+      "version": "0.1.5"
     },
     {
       "name": "contacts",
@@ -342,7 +342,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/youtube",
-      "version": "0.2.7"
+      "version": "0.2.8"
     },
     {
       "name": "youtube-music",
@@ -354,7 +354,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/youtube-music",
-      "version": "0.1.12"
+      "version": "0.1.13"
     },
     {
       "name": "sat",
@@ -378,7 +378,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/rappi",
-      "version": "0.2.2"
+      "version": "0.2.3"
     },
     {
       "name": "macbook",
@@ -390,7 +390,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/macbook",
-      "version": "0.6.2"
+      "version": "0.6.3"
     },
     {
       "name": "apple-passwords",
@@ -401,7 +401,7 @@
       },
       "category": "Productivity",
       "homepage": "https://github.com/PedroAVJ/apple-passwords",
-      "version": "0.2.2",
+      "version": "0.3.1",
       "description": "Use Apple Passwords autofill in Google Chrome without exposing saved credentials to the assistant."
     },
     {
@@ -414,7 +414,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/near-plugin",
-      "version": "0.10.5"
+      "version": "0.10.6"
     }
   ]
 }
