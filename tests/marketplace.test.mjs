@@ -49,9 +49,6 @@ const categories = {
   "Entertainment": [
     "youtube",
     "youtube-music"
-  ],
-  "Finance": [
-    "sat"
   ]
 };
 
