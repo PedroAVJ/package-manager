@@ -29,7 +29,6 @@ const categories = {
     "lsp",
     "package-manager",
     "sentry",
-    "toolchain",
     "vercel"
   ],
   "Communication": [

@@ -18,11 +18,11 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 
 | Category | Count | Plugins |
 | --- | ---: | --- |
-| **Developer Tools** | 11 | `ast-grep`, `convex`, `expo`, `github`, `google-cloud`, `ios`, `lsp`, `package-manager`, `sentry`, `toolchain`, `vercel` |
+| **Developer Tools** | 10 | `ast-grep`, `convex`, `expo`, `github`, `google-cloud`, `ios`, `lsp`, `package-manager`, `sentry`, `vercel` |
 | **Productivity** | 7 | `linear`, `macos`, `models`, `near`, `notion`, `rappi`, `writing` |
 | **Communication** | 1 | `whatsapp` |
 
-19 plugins in 3 categories. Native apps and services within a plugin repository are not counted as separate plugins.
+18 plugins in 3 categories. Native apps and services within a plugin repository are not counted as separate plugins.
 
 ## Category purposes
 

@@ -74,7 +74,7 @@ test("the canonical catalog map records exact standalone ownership", () => {
   }
   for (const qualified of [
     "linear.*macos.*models.*near.*notion.*rappi.*writing",
-    "ast-grep.*google-cloud.*ios.*lsp.*package-manager.*sentry.*toolchain",
+    "ast-grep.*google-cloud.*ios.*lsp.*package-manager.*sentry.*vercel",
     "whatsapp",
   ]) assert.match(map, new RegExp(qualified));
 });

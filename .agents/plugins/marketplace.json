@@ -111,21 +111,6 @@
       "description": "Google through its CLIs: gcloud (projects, Cloud Storage, artifact publishing), the Google Workspace CLI gws (Gmail, Drive, Docs, Sheets, Calendar, Tasks, People), Gmail search, triage, and drafting workflows, and YouTube playlists through ytx."
     },
     {
-      "name": "toolchain",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/toolchain.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "INSTALLED_BY_DEFAULT",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools",
-      "version": "0.6.4",
-      "description": "Author grounded natural-language briefs and manage requirements agreement, dependencies, and delivery alongside safe repository work."
-    },
-    {
       "name": "package-manager",
       "source": {
         "source": "url",

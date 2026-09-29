@@ -93,18 +93,6 @@
       "version": "0.3.2"
     },
     {
-      "name": "toolchain",
-      "description": "Author grounded natural-language briefs and manage requirements agreement, dependencies, and delivery alongside safe repository work.",
-      "category": "Developer Tools",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/toolchain.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/toolchain",
-      "version": "0.6.4"
-    },
-    {
       "name": "package-manager",
       "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases.",
       "category": "Developer Tools",
