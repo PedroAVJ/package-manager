@@ -10,34 +10,35 @@ const codex = json(join(root, ".agents/plugins/marketplace.json"));
 const claude = json(join(root, ".claude-plugin/marketplace.json"));
 
 const categories = {
-  "Developer Tools": [
-    "ios",
-    "sentry",
-    "google-cloud",
-    "toolchain",
-    "package-manager",
-    "ast-grep",
-    "lsp",
-    "typescript-lsp",
-    "python-lsp",
-    "bash-lsp"
-  ],
   "Productivity": [
+    "apple-passwords",
     "calendar",
-    "reminders",
-    "notes",
-    "voice-memos",
-    "icloud",
-    "writing",
-    "linear",
-    "notion"
-  ],
-  "AI": [
     "chatgpt",
     "claude",
-    "codex",
     "elevenlabs",
-    "openrouter"
+    "icloud",
+    "linear",
+    "macbook",
+    "near",
+    "notes",
+    "notion",
+    "rappi",
+    "reminders",
+    "voice-memos",
+    "writing"
+  ],
+  "Developer Tools": [
+    "ast-grep",
+    "bash-lsp",
+    "codex",
+    "google-cloud",
+    "ios",
+    "lsp",
+    "package-manager",
+    "python-lsp",
+    "sentry",
+    "toolchain",
+    "typescript-lsp"
   ],
   "Communication": [
     "contacts",
@@ -45,22 +46,15 @@ const categories = {
     "messages",
     "whatsapp"
   ],
-  "Media": [
+  "Entertainment": [
     "youtube",
     "youtube-music"
   ],
-  "Utilities": [
-    "macbook",
-    "apple-passwords"
+  "Creativity": [
+    "openrouter"
   ],
   "Finance": [
     "sat"
-  ],
-  "Shopping": [
-    "rappi"
-  ],
-  "Memory": [
-    "near"
   ]
 };
 

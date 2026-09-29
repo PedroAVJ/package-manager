@@ -8,9 +8,9 @@ const root = fileURLToPath(new URL("..", import.meta.url));
 
 test("Package Manager owns releases through one categorized marketplace", () => {
   const release = readFileSync(join(root, "skills/release/SKILL.md"), "utf8");
-  assert.match(release, /category.*Productivity.*Developer Tools.*AI.*Communication.*Media.*Finance.*Shopping.*Utilities.*Health & Fitness.*Memory/is);
+  assert.match(release, /category.*Productivity.*Developer Tools.*Communication.*Entertainment.*Creativity.*Finance/is);
   assert.match(release, /primary job the plugin performs/is);
-  assert.match(release, /established App Store terminology/is);
+  assert.match(release, /category\s+vocabulary of the official Anthropic and OpenAI plugin marketplaces,\s+not App Store names/is);
   assert.match(release, /Vendor, platform, and implementation method do not determine membership/is);
   assert.match(release, /one primary\s+category per plugin/is);
   assert.match(release, /Split a category when its meaning becomes unclear, not at a fixed member count/is);
@@ -68,19 +68,15 @@ test("the canonical catalog map records exact standalone ownership", () => {
   assert.match(map, /Product-only releases preserve the plugin version/is);
   assert.match(map, /categories\s+are metadata/i);
   assert.match(map, /plugin@package-manager/);
-  for (const name of ["AI", "Communication", "Developer Tools", "Finance", "Media", "Memory", "Productivity", "Shopping", "Utilities"]) {
+  for (const name of ["Communication", "Creativity", "Developer Tools", "Entertainment", "Finance", "Productivity"]) {
     assert.match(map, new RegExp("\\*\\*" + name + "\\*\\*"));
   }
   for (const qualified of [
-    "chatgpt.*claude.*codex.*elevenlabs.*openrouter",
-    "ios.*sentry.*google-cloud.*toolchain.*package-manager",
+    "apple-passwords.*calendar.*chatgpt.*claude.*elevenlabs.*icloud.*linear.*macbook.*near.*notes.*notion.*rappi.*reminders.*voice-memos.*writing",
+    "ast-grep.*bash-lsp.*codex.*google-cloud.*ios.*lsp.*package-manager.*python-lsp.*sentry.*toolchain.*typescript-lsp",
     "contacts.*gmail.*messages.*whatsapp",
-    "toolchain",
-    "calendar.*reminders.*notes.*voice-memos.*icloud.*writing",
     "youtube.*youtube-music",
-    "rappi",
-    "near",
-    "macbook.*apple-passwords",
+    "openrouter",
     "sat",
   ]) assert.match(map, new RegExp(qualified));
 });

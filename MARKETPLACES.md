@@ -10,35 +10,29 @@ Named AI employee role plugins live in the separate private `PedroAVJ/agents` ma
 
 ## Category naming rule
 
-Use a familiar name for the primary job the plugin performs. Prefer established App Store terminology when it fits; introduce a custom category only when the existing vocabulary does not describe the job. Vendor, platform, and implementation method do not determine membership.
+Follow the category vocabulary of the official Anthropic and OpenAI plugin marketplaces, not App Store names. Choose the name from that vocabulary that fits the primary job the plugin performs; introduce a category outside it only when the existing vocabulary does not describe the job. Vendor, platform, and implementation method do not determine membership.
 
 Assign one primary category after reviewing the plugin's actual skills. Compare a new entry with the purposes below before adding a category. Split a category when its meaning becomes unclear, not when it reaches a fixed member count. Display names and stable plugin identifiers are separate from category membership.
 
 | Category | Count | Plugins |
 | --- | ---: | --- |
-| **Developer Tools** | 10 | `ios`, `sentry`, `google-cloud`, `toolchain`, `package-manager`, `ast-grep`, `lsp`, `typescript-lsp`, `python-lsp`, `bash-lsp` |
-| **Productivity** | 8 | `calendar`, `reminders`, `notes`, `voice-memos`, `icloud`, `writing`, `linear`, `notion` |
-| **AI** | 5 | `chatgpt`, `claude`, `codex`, `elevenlabs`, `openrouter` |
+| **Productivity** | 15 | `apple-passwords`, `calendar`, `chatgpt`, `claude`, `elevenlabs`, `icloud`, `linear`, `macbook`, `near`, `notes`, `notion`, `rappi`, `reminders`, `voice-memos`, `writing` |
+| **Developer Tools** | 11 | `ast-grep`, `bash-lsp`, `codex`, `google-cloud`, `ios`, `lsp`, `package-manager`, `python-lsp`, `sentry`, `toolchain`, `typescript-lsp` |
 | **Communication** | 4 | `contacts`, `gmail`, `messages`, `whatsapp` |
-| **Media** | 2 | `youtube`, `youtube-music` |
-| **Utilities** | 2 | `macbook`, `apple-passwords` |
+| **Entertainment** | 2 | `youtube`, `youtube-music` |
+| **Creativity** | 1 | `openrouter` |
 | **Finance** | 1 | `sat` |
-| **Shopping** | 1 | `rappi` |
-| **Memory** | 1 | `near` |
 
-34 plugins in 9 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
+34 plugins in 6 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
 
 ## Category purposes
 
-- **Productivity:** organize time, documents, files, notes, tasks, and written work. iCloud belongs here because the plugin operates personal files.
-- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. The ast-grep and language-server navigation plugins belong here because they search and navigate source code.
-- **AI:** use, generate with, or operate AI assistants and models. Codex belongs here even though software development is a common use.
+- **Productivity:** organize time, documents, files, notes, tasks, and written work, and run the personal assistants, context, credentials, host, and errands that support it. iCloud belongs here because the plugin operates personal files. ChatGPT, Claude, and ElevenLabs belong here as general-purpose assistants and dictation. macOS and Passwords belong here because they operate the host environment and credentials. Near belongs here because it retrieves separately configured personal context. Rappi belongs here because it prepares personal orders.
+- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. The ast-grep and language-server navigation plugins belong here because they search and navigate source code. Codex belongs here because it is a coding agent.
 - **Communication:** manage people, messages, and mail.
-- **Media:** manage playback and media libraries, including educational content and work-session audio.
+- **Entertainment:** manage music and video playback and libraries, including educational content and work-session audio.
+- **Creativity:** generate media with AI models. OpenRouter belongs here because its skill generates video.
 - **Finance:** manage tax work.
-- **Shopping:** prepare purchases and orders.
-- **Utilities:** operate the host environment and credentials. The macOS and Passwords plugins belong here because they provide general system utilities.
-- **Memory:** retrieve and maintain separately configured personal context. Near's placement describes its current context-repository scope and should be reviewed if that scope changes.
 
 ## Keep the map consistent
 

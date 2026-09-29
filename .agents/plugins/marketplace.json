@@ -197,7 +197,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.2.4",
+      "version": "0.2.5",
       "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases."
     },
     {
@@ -286,7 +286,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "AI",
+      "category": "Productivity",
       "version": "0.2.5",
       "description": "Work with the merged macOS ChatGPT desktop host: Pro Oracle reviews, automations, read-only bundle forensics, and explicit patch or restore workflows."
     },
@@ -301,7 +301,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "AI",
+      "category": "Productivity",
       "version": "0.5.24",
       "description": "Talk with Claude Fable 5.1, author in Claude Design, create visual explainers, request max-effort verified second opinions, and operate Claude Code Remote Control."
     },
@@ -316,7 +316,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "AI",
+      "category": "Developer Tools",
       "version": "0.8.32",
       "description": "Use OpenAI Codex through its CLI and app-server, with realtime task orchestration, shared memory, review and rescue handoffs, coding contracts, and the Codex Voice Apple Watch companion."
     },
@@ -331,7 +331,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "AI",
+      "category": "Productivity",
       "version": "0.7.37",
       "description": "Use ElevenLabs through agent audio tools and the native Dictation Button app."
     },
@@ -346,7 +346,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "AI",
+      "category": "Creativity",
       "version": "0.1.4",
       "description": "Use OpenRouter's multi-model API, beginning with guarded text-to-video and reference-to-video generation."
     },
@@ -421,7 +421,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Media",
+      "category": "Entertainment",
       "version": "0.2.7",
       "description": "Read and edit YouTube playlists through the ytx CLI over the YouTube Data API v3."
     },
@@ -436,7 +436,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Media",
+      "category": "Entertainment",
       "version": "0.1.12",
       "description": "Play and curate YouTube Music: throwaway session queues, a validated focus pool, and macOS Background Sounds control."
     },
@@ -466,7 +466,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Shopping",
+      "category": "Productivity",
       "version": "0.2.2",
       "description": "Prepare and review one-time Rappi carts or scheduled repeat-purchase proposals without placing orders."
     },
@@ -482,7 +482,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Utilities",
+      "category": "Productivity",
       "version": "0.6.2"
     },
     {
@@ -492,7 +492,7 @@
         "url": "https://github.com/PedroAVJ/apple-passwords.git",
         "ref": "main"
       },
-      "category": "Utilities",
+      "category": "Productivity",
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
@@ -511,7 +511,7 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Memory",
+      "category": "Productivity",
       "version": "0.10.5",
       "description": "Read private context and think through it with Fable and Astra."
     }

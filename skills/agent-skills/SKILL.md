@@ -29,8 +29,8 @@ authoring time, not install time.
 
 Choose the plugin's primary job before authoring. Follow the category naming
 rule, purposes, and exact membership in [the canonical category map](../../MARKETPLACES.md).
-Use a familiar job name and prefer established App Store terminology when it
-fits. Vendor, platform, and implementation method do not determine membership.
+Name it with the category vocabulary of the official Anthropic and OpenAI
+plugin marketplaces, not App Store names. Vendor, platform, and implementation method do not determine membership.
 Assign one primary category; split by meaning rather than a fixed member count.
 Do not maintain a separate category list in this skill. A category change must
 update the canonical map, both catalogs, the owning plugin manifest, and the

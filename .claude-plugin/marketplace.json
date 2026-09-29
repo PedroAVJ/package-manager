@@ -162,7 +162,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/package-manager",
-      "version": "0.2.4"
+      "version": "0.2.5"
     },
     {
       "name": "ast-grep",
@@ -227,7 +227,7 @@
     {
       "name": "chatgpt",
       "description": "Work with the merged macOS ChatGPT desktop host: Pro Oracle reviews, automations, read-only bundle forensics, and explicit patch or restore workflows.",
-      "category": "AI",
+      "category": "Productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/chatgpt.git",
@@ -239,7 +239,7 @@
     {
       "name": "claude",
       "description": "Talk with Claude Fable 5.1, author in Claude Design, create visual explainers, request max-effort verified second opinions, and operate Claude Code Remote Control.",
-      "category": "AI",
+      "category": "Productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/claude.git",
@@ -251,7 +251,7 @@
     {
       "name": "codex",
       "description": "Use OpenAI Codex through its CLI and app-server, with realtime task orchestration, shared memory, review and rescue handoffs, coding contracts, and the Codex Voice Apple Watch companion.",
-      "category": "AI",
+      "category": "Developer Tools",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/codex.git",
@@ -263,7 +263,7 @@
     {
       "name": "elevenlabs",
       "description": "Use ElevenLabs through agent audio tools and the native Dictation Button app.",
-      "category": "AI",
+      "category": "Productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/elevenlabs.git",
@@ -275,7 +275,7 @@
     {
       "name": "openrouter",
       "description": "Use OpenRouter's multi-model API, beginning with guarded text-to-video and reference-to-video generation.",
-      "category": "AI",
+      "category": "Creativity",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/openrouter.git",
@@ -335,7 +335,7 @@
     {
       "name": "youtube",
       "description": "Read and edit YouTube playlists through the ytx CLI over the YouTube Data API v3.",
-      "category": "Media",
+      "category": "Entertainment",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/youtube.git",
@@ -347,7 +347,7 @@
     {
       "name": "youtube-music",
       "description": "Play and curate YouTube Music: throwaway session queues, a validated focus pool, and macOS Background Sounds control.",
-      "category": "Media",
+      "category": "Entertainment",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/youtube-music.git",
@@ -371,7 +371,7 @@
     {
       "name": "rappi",
       "description": "Prepare and review one-time Rappi carts or scheduled repeat-purchase proposals without placing orders.",
-      "category": "Shopping",
+      "category": "Productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/rappi.git",
@@ -383,7 +383,7 @@
     {
       "name": "macbook",
       "description": "Measure this Mac and authorize one-time native Mac login password fills without exposing the secret.",
-      "category": "Utilities",
+      "category": "Productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/macbook.git",
@@ -399,7 +399,7 @@
         "url": "https://github.com/PedroAVJ/apple-passwords.git",
         "ref": "main"
       },
-      "category": "Utilities",
+      "category": "Productivity",
       "homepage": "https://github.com/PedroAVJ/apple-passwords",
       "version": "0.2.2",
       "description": "Use Apple Passwords autofill in Google Chrome without exposing saved credentials to the assistant."
@@ -407,7 +407,7 @@
     {
       "name": "near",
       "description": "Read private context and think through it with Fable and Astra.",
-      "category": "Memory",
+      "category": "Productivity",
       "source": {
         "source": "url",
         "url": "https://github.com/PedroAVJ/near-plugin.git",

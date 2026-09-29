@@ -23,8 +23,8 @@ employee role plugins. Keep Apps and Agents listings out of the public catalog:
 
 - `.agents/plugins/marketplace.json` is the Codex and ChatGPT catalog.
 - `.claude-plugin/marketplace.json` is the Claude catalog.
-- `category` groups entries as Productivity, Developer Tools, AI, Communication,
-  Media, Finance, Shopping, Utilities, Health & Fitness, or Memory.
+- `category` groups entries as Productivity, Developer Tools, Communication,
+  Entertainment, Creativity, or Finance.
 - Public installation identities use `plugin@package-manager`. Private Apps and
   Agents installations use `plugin@apps` and `plugin@agents` respectively.
 
@@ -75,9 +75,10 @@ the applicable Azure secret/configuration service. Prefer provider commands
 that inject variables without writing a file. Never keep an environment file in
 a plugin cache, remote branch, or permanent checkout.
 
-The category describes the primary job the plugin performs. Use a familiar job
-name and prefer established App Store terminology when it fits. Introduce a
-custom category only when the existing vocabulary does not describe that job.
+The category describes the primary job the plugin performs. Follow the
+category vocabulary of the official Anthropic and OpenAI plugin marketplaces,
+not App Store names. Introduce a category outside that vocabulary only when it
+does not describe that job.
 Vendor, platform, and implementation method do not determine membership. A CLI,
 API, connector, local database, or UI bridge belongs inside the program it operates.
 
