@@ -122,7 +122,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.1.2"
+      "version": "0.2.0"
     },
     {
       "name": "sentry",
@@ -214,6 +214,66 @@
       "category": "Developer Tools",
       "version": "0.2.3",
       "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases."
+    },
+    {
+      "name": "ast-grep",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/ast-grep.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "version": "0.2.0",
+      "description": "Batch structural code searches with compact results to reduce model round trips."
+    },
+    {
+      "name": "typescript-lsp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/typescript-lsp.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "version": "0.2.0",
+      "description": "Batch TypeScript, TSX, JavaScript and JSX navigation through a language server."
+    },
+    {
+      "name": "python-lsp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/python-lsp.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "version": "0.2.0",
+      "description": "Batch Python definitions, references, symbols and type information using Pyright."
+    },
+    {
+      "name": "bash-lsp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/bash-lsp.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "version": "0.2.0",
+      "description": "Batch Bash and shell-script symbol navigation without executing shell scripts."
     },
     {
       "name": "chatgpt",

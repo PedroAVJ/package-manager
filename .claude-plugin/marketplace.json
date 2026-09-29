@@ -101,7 +101,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/ios",
-      "version": "0.1.2"
+      "version": "0.2.0"
     },
     {
       "name": "sentry",
@@ -175,6 +175,54 @@
       },
       "homepage": "https://github.com/PedroAVJ/package-manager",
       "version": "0.2.3"
+    },
+    {
+      "name": "ast-grep",
+      "description": "Batch structural code searches with compact results to reduce model round trips.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/ast-grep.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/ast-grep",
+      "version": "0.2.0"
+    },
+    {
+      "name": "typescript-lsp",
+      "description": "Batch TypeScript, TSX, JavaScript and JSX navigation through a language server.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/typescript-lsp.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/typescript-lsp",
+      "version": "0.2.0"
+    },
+    {
+      "name": "python-lsp",
+      "description": "Batch Python definitions, references, symbols and type information using Pyright.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/python-lsp.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/python-lsp",
+      "version": "0.2.0"
+    },
+    {
+      "name": "bash-lsp",
+      "description": "Batch Bash and shell-script symbol navigation without executing shell scripts.",
+      "category": "Developer Tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/bash-lsp.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/PedroAVJ/bash-lsp",
+      "version": "0.2.0"
     },
     {
       "name": "chatgpt",

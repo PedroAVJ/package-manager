@@ -14,7 +14,7 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 
 | Category | Count | Plugins |
 | --- | ---: | --- |
-| **Developer Tools** | 7 | `ios`, `sentry`, `neon`, `azure`, `google-cloud`, `toolchain`, `package-manager` |
+| **Developer Tools** | 11 | `ios`, `sentry`, `neon`, `azure`, `google-cloud`, `toolchain`, `package-manager`, `ast-grep`, `typescript-lsp`, `python-lsp`, `bash-lsp` |
 | **Productivity** | 7 | `calendar`, `reminders`, `notes`, `voice-memos`, `google-docs`, `icloud`, `writing` |
 | **AI** | 5 | `chatgpt`, `claude`, `codex`, `elevenlabs`, `openrouter` |
 | **Communication** | 5 | `contacts`, `gmail`, `messages`, `whatsapp`, `telcel` |
@@ -25,12 +25,12 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 | **Health & Fitness** | 1 | `rp-strength` |
 | **Memory** | 1 | `near` |
 
-35 public plugins in 10 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `azure`, `macbook`, and `apple-passwords` display as Azure, macOS, and Passwords.
+39 public plugins in 10 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `azure`, `macbook`, and `apple-passwords` display as Azure, macOS, and Passwords.
 
 ## Category purposes
 
 - **Productivity:** organize time, documents, files, notes, and written work. iCloud belongs here because the plugin operates personal files.
-- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Azure, Google Cloud, and Neon belong here because of the development work their plugins perform.
+- **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Azure, Google Cloud, and Neon belong here because of the development work their plugins perform. The ast-grep and language-server navigation plugins belong here because they search and navigate source code.
 - **AI:** use, generate with, or operate AI assistants and models. Codex belongs here even though software development is a common use.
 - **Communication:** manage people, messages, mail, and mobile communications.
 - **Media:** manage playback and media libraries, including educational content and work-session audio. Samsung TV belongs here because playback is its primary job.

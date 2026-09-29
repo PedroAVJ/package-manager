@@ -26,7 +26,11 @@ const categories = {
     "azure",
     "google-cloud",
     "toolchain",
-    "package-manager"
+    "package-manager",
+    "ast-grep",
+    "typescript-lsp",
+    "python-lsp",
+    "bash-lsp"
   ],
   "AI": [
     "chatgpt",
