@@ -189,26 +189,48 @@
       "version": "0.10.8"
     },
     {
-      "name": "openai-docs",
+      "name": "expo",
       "source": {
         "source": "url",
-        "url": "https://github.com/PedroAVJ/openai-docs.git",
+        "url": "https://github.com/PedroAVJ/expo.git",
         "ref": "main"
       },
       "version": "0.1.0",
-      "description": "Read and search official OpenAI developer documentation through its public MCP service.",
+      "description": "Official Expo skills for building, deploying, upgrading, and debugging Expo and React Native apps.",
       "category": "Developer Tools"
     },
     {
-      "name": "link",
+      "name": "github",
       "source": {
         "source": "url",
-        "url": "https://github.com/PedroAVJ/link.git",
+        "url": "https://github.com/PedroAVJ/github.git",
         "ref": "main"
       },
       "version": "0.1.0",
-      "description": "Stripe Link CLI setup, payment credentials and financial insights with upstream attribution.",
-      "category": "Productivity"
+      "description": "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through GitHub's official remote MCP server.",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "vercel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/vercel.git",
+        "ref": "main"
+      },
+      "version": "0.1.0",
+      "description": "Build and deploy web apps and agents",
+      "category": "Developer Tools"
+    },
+    {
+      "name": "convex",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/PedroAVJ/convex.git",
+        "ref": "main"
+      },
+      "version": "0.1.0",
+      "description": "Build and operate Convex backends with Convex's official agent skills and local Convex MCP server.",
+      "category": "Developer Tools"
     }
   ]
 }

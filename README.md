@@ -2,9 +2,9 @@
 
 A public catalog of independently versioned plugins for Codex and Claude Code. The repository also contains the Package Manager plugin for discovering, packaging, scheduling, and releasing agent capabilities.
 
-Most listed plugins have public source. `linear`, `notion`, and `near` install from private repositories, so installing them requires GitHub access to PedroAVJ's private repositories; the rest are public. Account access and private user data remain in the owning service or local configuration, never in a plugin. Named AI employee role plugins use the separate private `PedroAVJ/agents` marketplace. The former `PedroAVJ/apps` marketplace is retired; its plugins moved here or were removed.
+Many listed plugins have public source. `linear`, `notion`, and `near` install from private repositories, so installing them requires GitHub access to PedroAVJ's private repositories; the other private sources are listed below. Account access and private user data remain in the owning service or local configuration, never in a plugin. Named AI employee role plugins use the separate private `PedroAVJ/agents` marketplace. The former `PedroAVJ/apps` marketplace is retired; its plugins moved here or were removed.
 
-New private plugin sources: `openai-docs`, `link`, and `hatch-pet`. Their existing capabilities were migrated without exposing source or local state publicly. Hatch Pet supports Codex only.
+The former `openai-curated` Codex plugins `expo`, `github`, `vercel`, and `convex` are also private sources here, installable in both Codex and Claude Code, with upstream licenses and attribution preserved.
 
 ## Install
 
