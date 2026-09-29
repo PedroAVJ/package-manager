@@ -239,13 +239,13 @@ Do not leave a dependent plugin pointing at a removed marketplace. During a
 namespace move, keep the old installation live until the replacement, its
 dependencies, and any stable front door have passed read-back verification.
 
-`claude@package-manager` installs in both clients as one namespace. Its design
-guidance and read-only Claude Design connector are host-neutral. Its `ask`,
-`explain`, and `oracle` model-delegation lanes run from Codex; inside Claude
-Code they must answer directly or refuse self-consultation without spawning a
-nested Claude CLI. Preserve the stable `com.pedro.claude-remote-control`
-service identity, support path, Claude Design MCP identity, credential path,
-and Fable relay state path when releasing or renaming Claude. A plugin supports both clients unless its catalogs and manifests
+The former `claude` plugin is retired. The `com.pedro.claude-remote-control`
+LaunchAgent runs from a standalone `~/.local/bin` script outside every plugin
+cache; preserve its service identity, support path, and logs, plus the Claude
+Design credential path, and never stop or unload it as part of a plugin
+release. When a workflow that consults Claude from Codex runs inside Claude
+Code, it must answer directly or refuse self-consultation without spawning a
+nested Claude CLI. A plugin supports both clients unless its catalogs and manifests
 explicitly prove otherwise.
 
 ## Remove released task clones

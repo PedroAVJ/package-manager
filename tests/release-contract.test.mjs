@@ -15,7 +15,8 @@ test("Package Manager owns releases through one categorized marketplace", () => 
   assert.match(release, /one primary\s+category per plugin/is);
   assert.match(release, /Split a category when its meaning becomes unclear, not at a fixed member count/is);
   assert.match(release, /canonical map, both catalogs, the owning Codex manifest, and category\s+checks together/is);
-  assert.match(release, /claude@package-manager.*both clients/is);
+  assert.match(release, /former `claude` plugin is retired/i);
+  assert.doesNotMatch(release, /claude@package-manager/);
   assert.match(release, /inside Claude\s+Code.*without spawning a\s+nested Claude CLI/is);
   assert.match(release, /com\.pedro\.claude-remote-control/);
   assert.match(release, /PedroAVJ\/package-manager/);
@@ -72,8 +73,8 @@ test("the canonical catalog map records exact standalone ownership", () => {
     assert.match(map, new RegExp("\\*\\*" + name + "\\*\\*"));
   }
   for (const qualified of [
-    "apple-passwords.*calendar.*chatgpt.*claude.*elevenlabs.*icloud.*linear.*macbook.*near.*notes.*notion.*rappi.*reminders.*voice-memos.*writing",
-    "ast-grep.*bash-lsp.*codex.*google-cloud.*ios.*lsp.*package-manager.*python-lsp.*sentry.*toolchain.*typescript-lsp",
+    "apple-passwords.*calendar.*chatgpt.*elevenlabs.*icloud.*linear.*macbook.*near.*notes.*notion.*rappi.*reminders.*voice-memos.*writing",
+    "ast-grep.*codex.*google-cloud.*ios.*lsp.*package-manager.*sentry.*toolchain",
     "contacts.*gmail.*messages.*whatsapp",
     "youtube",
   ]) assert.match(map, new RegExp(qualified));

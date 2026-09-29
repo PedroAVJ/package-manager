@@ -14,7 +14,6 @@ const categories = {
     "apple-passwords",
     "calendar",
     "chatgpt",
-    "claude",
     "elevenlabs",
     "icloud",
     "linear",
@@ -29,16 +28,13 @@ const categories = {
   ],
   "Developer Tools": [
     "ast-grep",
-    "bash-lsp",
     "codex",
     "google-cloud",
     "ios",
     "lsp",
     "package-manager",
-    "python-lsp",
     "sentry",
-    "toolchain",
-    "typescript-lsp"
+    "toolchain"
   ],
   "Communication": [
     "contacts",
@@ -109,7 +105,7 @@ test("the documented map matches both catalogs without missing members or count 
 test("shared plugins keep source and category metadata synchronized", () => {
   const claudeByName = new Map(claude.plugins.map((entry) => [entry.name, entry]));
   const sparseSources = new Map([
-    ["sentry", "./plugins/sentry"],
+    ["sentry", "./plugins/sentry"]
   ]);
   for (const entry of codex.plugins) {
     if (sparseSources.has(entry.name)) {
@@ -173,7 +169,7 @@ test("only the documented private sources are listed", () => {
   const privateSources = new Map([
     ["linear", "linear-graphql"],
     ["notion", "notion"],
-    ["near", "near-plugin"],
+    ["near", "near-plugin"]
   ]);
   const map = readFileSync(join(root, "MARKETPLACES.md"), "utf8");
   for (const [name, repository] of privateSources) {

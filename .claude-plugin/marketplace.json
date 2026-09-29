@@ -162,7 +162,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/package-manager",
-      "version": "0.2.9"
+      "version": "0.2.10"
     },
     {
       "name": "ast-grep",
@@ -189,44 +189,8 @@
       "version": "0.1.0"
     },
     {
-      "name": "typescript-lsp",
-      "description": "Batch TypeScript, TSX, JavaScript and JSX navigation through a language server.",
-      "category": "Developer Tools",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/typescript-lsp.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/typescript-lsp",
-      "version": "0.2.0"
-    },
-    {
-      "name": "python-lsp",
-      "description": "Batch Python definitions, references, symbols and type information using Pyright.",
-      "category": "Developer Tools",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/python-lsp.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/python-lsp",
-      "version": "0.2.0"
-    },
-    {
-      "name": "bash-lsp",
-      "description": "Batch Bash and shell-script symbol navigation without executing shell scripts.",
-      "category": "Developer Tools",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/bash-lsp.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/bash-lsp",
-      "version": "0.2.0"
-    },
-    {
       "name": "chatgpt",
-      "description": "Work with the merged macOS ChatGPT desktop host: Pro Oracle reviews, automations, read-only bundle forensics, and explicit patch or restore workflows.",
+      "description": "Ask GPT Pro, ChatGPT's Pro mode, for independent second opinions through the ChatGPT desktop app's in-app browser.",
       "category": "Productivity",
       "source": {
         "source": "url",
@@ -234,19 +198,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/chatgpt",
-      "version": "0.2.6"
-    },
-    {
-      "name": "claude",
-      "description": "Talk with Claude Fable 5.1, author in Claude Design, create visual explainers, request max-effort verified second opinions, and operate Claude Code Remote Control.",
-      "category": "Productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/claude.git",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/PedroAVJ/claude",
-      "version": "0.5.26"
+      "version": "0.3.0"
     },
     {
       "name": "codex",
@@ -270,7 +222,7 @@
         "ref": "main"
       },
       "homepage": "https://github.com/PedroAVJ/elevenlabs",
-      "version": "0.7.38"
+      "version": "0.7.39"
     },
     {
       "name": "contacts",

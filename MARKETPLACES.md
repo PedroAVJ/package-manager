@@ -16,16 +16,16 @@ Assign one primary category after reviewing the plugin's actual skills. Compare 
 
 | Category | Count | Plugins |
 | --- | ---: | --- |
-| **Productivity** | 15 | `apple-passwords`, `calendar`, `chatgpt`, `claude`, `elevenlabs`, `icloud`, `linear`, `macbook`, `near`, `notes`, `notion`, `rappi`, `reminders`, `voice-memos`, `writing` |
-| **Developer Tools** | 11 | `ast-grep`, `bash-lsp`, `codex`, `google-cloud`, `ios`, `lsp`, `package-manager`, `python-lsp`, `sentry`, `toolchain`, `typescript-lsp` |
+| **Productivity** | 14 | `apple-passwords`, `calendar`, `chatgpt`, `elevenlabs`, `icloud`, `linear`, `macbook`, `near`, `notes`, `notion`, `rappi`, `reminders`, `voice-memos`, `writing` |
+| **Developer Tools** | 8 | `ast-grep`, `codex`, `google-cloud`, `ios`, `lsp`, `package-manager`, `sentry`, `toolchain` |
 | **Communication** | 4 | `contacts`, `gmail`, `messages`, `whatsapp` |
 | **Entertainment** | 1 | `youtube` |
 
-31 plugins in 4 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
+27 plugins in 4 categories. Native apps and services within a plugin repository are not counted as separate plugins. The table uses stable installation identifiers; `macbook` and `apple-passwords` display as macOS and Passwords.
 
 ## Category purposes
 
-- **Productivity:** organize time, documents, files, notes, tasks, and written work, and run the personal assistants, context, credentials, host, and errands that support it. iCloud belongs here because the plugin operates personal files. ChatGPT, Claude, and ElevenLabs belong here as general-purpose assistants and dictation. macOS and Passwords belong here because they operate the host environment and credentials. Near belongs here because it retrieves separately configured personal context. Rappi belongs here because it prepares personal orders.
+- **Productivity:** organize time, documents, files, notes, tasks, and written work, and run the personal assistants, context, credentials, host, and errands that support it. iCloud belongs here because the plugin operates personal files. ChatGPT and ElevenLabs belong here as general-purpose assistants and dictation. macOS and Passwords belong here because they operate the host environment and credentials. Near belongs here because it retrieves separately configured personal context. Rappi belongs here because it prepares personal orders.
 - **Developer Tools:** build, operate, diagnose, and release software and its infrastructure. Google Cloud belongs here because of the development work its plugin performs. The ast-grep and language-server navigation plugins belong here because they search and navigate source code. Codex belongs here because it drives the Codex CLI from Claude Code for image generation and code reviews.
 - **Communication:** manage people, messages, and mail.
 - **Entertainment:** manage video playback and libraries, including educational content.

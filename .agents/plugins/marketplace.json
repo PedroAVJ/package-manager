@@ -197,7 +197,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Developer Tools",
-      "version": "0.2.9",
+      "version": "0.2.10",
       "description": "Manage and distribute the user's plugin-first capability ecosystem across skills, MCP servers, native schedules, agent-facing CLIs, and client releases."
     },
     {
@@ -231,51 +231,6 @@
       "description": "Batch TypeScript, JavaScript, Python, Bash and C# navigation through pinned language servers."
     },
     {
-      "name": "typescript-lsp",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/typescript-lsp.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools",
-      "version": "0.2.0",
-      "description": "Batch TypeScript, TSX, JavaScript and JSX navigation through a language server."
-    },
-    {
-      "name": "python-lsp",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/python-lsp.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools",
-      "version": "0.2.0",
-      "description": "Batch Python definitions, references, symbols and type information using Pyright."
-    },
-    {
-      "name": "bash-lsp",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/bash-lsp.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Developer Tools",
-      "version": "0.2.0",
-      "description": "Batch Bash and shell-script symbol navigation without executing shell scripts."
-    },
-    {
       "name": "chatgpt",
       "source": {
         "source": "url",
@@ -287,23 +242,8 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity",
-      "version": "0.2.6",
-      "description": "Work with the merged macOS ChatGPT desktop host: Pro Oracle reviews, automations, read-only bundle forensics, and explicit patch or restore workflows."
-    },
-    {
-      "name": "claude",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/PedroAVJ/claude.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity",
-      "version": "0.5.26",
-      "description": "Talk with Claude Fable 5.1, author in Claude Design, create visual explainers, request max-effort verified second opinions, and operate Claude Code Remote Control."
+      "version": "0.3.0",
+      "description": "Ask GPT Pro, ChatGPT's Pro mode, for independent second opinions through the ChatGPT desktop app's in-app browser."
     },
     {
       "name": "elevenlabs",
@@ -317,7 +257,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Productivity",
-      "version": "0.7.38",
+      "version": "0.7.39",
       "description": "Use ElevenLabs through agent audio tools and the native Dictation Button app."
     },
     {
